@@ -1,27 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
-- title: Projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
@@ -29,13 +8,6 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Expositions
-  target: "/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
@@ -43,18 +15,11 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Restauration écologique
-  target: "/restauration-ecologique/"
+- title: Nos solutions
+  target: "/nos-solutions/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/restauration-ecologique"
-  file: content/fr/pages/restauration-ecologique/_index.html
-- title: Nos accompagnements
-  target: "/nos-accompagnements"
-  kind: url
-  new_tab: false
-  children: []
-  path: "/"
-  file: content/fr/_index.html
+  path: "/pages/nos-solutions"
+  file: content/fr/pages/nos-solutions/_index.html
 
