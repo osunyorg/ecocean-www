@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/quai-dezoum/"
 slug: "quai-dezoum"
 date: 2025-09-03T17:00:03+02:00
-lastmod: 2025-09-03T17:00:55+02:00
+lastmod: 2025-09-03T17:07:22+02:00
 meta:
   hugo:
     permalink: "/quai-dezoum/"
@@ -17,7 +17,7 @@ meta:
     slug: "quai-dezoum"
   dates:
     created_at: 2025-09-03T17:00:03+02:00
-    updated_at: 2025-09-03T17:00:55+02:00
+    updated_at: 2025-09-03T17:07:22+02:00
     published_at: 2025-09-03T17:00:03+02:00
 search:
   id: "c47453ef-15c3-48c9-8911-7837f6cec1f7"
@@ -30,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    
+    <p>Titre du bloc  <br>Description du bloc. Description du bloc. Description du bloc. Description du bloc. Description du bloc. Description du bloc. Description du bloc. <br>Test pour des notes en dessous.</p>  <p> Titre bloc Description bloc.</p>  <p>test <br>description</p>  <p>unité <br>description</p>  <p>% <br>description</p>
 
 breadcrumbs:
   - title: >-
@@ -84,34 +84,88 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 0
+  seconds: 10
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: organizations
+    template: chapter
     title: >-
-      
+      Titre du bloc
     slug: >-
-      
+      titre-du-bloc
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Titre du bloc
+        heading: 2
     data:
-      layout: grid
-      description: >-
+      layout: no_background
+      text: >-
+        <p>Description du bloc.</p><ul><li>Description du bloc. Description du bloc. Description du bloc. Description du bloc. Description du bloc. Description du bloc.</li></ul>
+
+      notes: >-
+        <p>Test pour des notes en dessous.</p>
+
+
+      alt: >-
         
 
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
+      credit: >-
+        
 
-      organizations:
-      quantity: 0
+
+
+  - kind: block
+    template: key_figures
+    title: >-
+      Titre bloc
+    slug: >-
+      titre-bloc
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Titre bloc
+        heading: 2
+      description: >-
+        <p>Description bloc.</p>
+    data:
+      description: >-
+        <p>Description bloc.</p>
+
+      figures:
+        - number: 124
+          unit: >-
+            test
+
+          description: >-
+            description
+
+
+        - number: 2000
+          unit: >-
+            unité
+
+          description: >-
+            description
+
+
+        - number: 3
+          unit: >-
+            %
+
+          description: >-
+            description
+
+
 
 
 
