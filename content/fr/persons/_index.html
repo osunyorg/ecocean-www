@@ -47,7 +47,7 @@ design:
 
 has:
   administrators: 
-  authors: true
+  authors: false
   researchers: 
   teachers: 
 
@@ -59,7 +59,8 @@ translationKey: communication-website-page-b90619ff-cd08-435b-9db9-e1a84764cd89
 
 
 children:
-  - "authors/_index.html"
+  - "pages/equipe/lequipe/_index.html"
+  - "pages/equipe/ressources/_index.html"
 meta_description: >-
   
 
@@ -75,6 +76,33 @@ header_cta:
   target: ""
   external: false
 section_taxonomies:
+  - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: "/equipe/categories/direction/"
+        path: "/persons_categories/direction"
+        slug: "direction"
+        file: "content/fr/persons_categories/direction/_index.html"
+        name: >-
+          Direction
+        count: 3
+      - permalink: "/equipe/categories/projets/"
+        path: "/persons_categories/projets"
+        slug: "projets"
+        file: "content/fr/persons_categories/projets/_index.html"
+        name: >-
+          Projets
+        count: 1
+      - permalink: "/equipe/categories/communication/"
+        path: "/persons_categories/communication"
+        slug: "communication"
+        file: "content/fr/persons_categories/communication/_index.html"
+        name: >-
+          Communication
+        count: 1
+
 
 contents_reading_time:
   seconds: 0

@@ -2,17 +2,26 @@
 title: Menu principal
 items:
 - title: A propos de nous
-  target: ''
-  kind: blank
+  target: "/equipe/"
+  kind: page
   new_tab: false
   children:
   - title: Équipe
-    target: "/equipe/"
+    target: "/equipe/lequipe/"
     kind: page
     new_tab: false
     children: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
+    path: "/pages/equipe/lequipe"
+    file: content/fr/pages/equipe/lequipe/_index.html
+  - title: Ressources
+    target: "/equipe/ressources/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/equipe/ressources"
+    file: content/fr/pages/equipe/ressources/_index.html
+  path: "/persons"
+  file: content/fr/persons/_index.html
 - title: Nos solutions
   target: "/nos-solutions/"
   kind: page
@@ -34,4 +43,11 @@ items:
     file: content/fr/pages/nos-solutions/biorestore/_index.html
   path: "/pages/nos-solutions"
   file: content/fr/pages/nos-solutions/_index.html
+- title: Nos projets
+  target: "/projets/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
 
