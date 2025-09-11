@@ -43,6 +43,43 @@ items:
     file: content/fr/pages/nos-solutions/biorestore/_index.html
   path: "/pages/nos-solutions"
   file: content/fr/pages/nos-solutions/_index.html
+- title: Votre besoin
+  target: projets/activite
+  kind: url
+  new_tab: false
+  children:
+  - title: Aménageur
+    target: https://www.ecocean.osuny.site/projets/activite/amenageur/
+    kind: url
+    new_tab: false
+    children: []
+  - title: Bureau d'étude et AMO
+    target: https://www.ecocean.osuny.site/projets/activite/bureau-detude-et-amo/
+    kind: url
+    new_tab: false
+    children: []
+  - title: Collectivité
+    target: https://www.ecocean.osuny.site/projets/activite/collectivite/
+    kind: url
+    new_tab: false
+    children: []
+  - title: Énergéticien
+    target: https://www.ecocean.osuny.site/projets/activite/energeticien/
+    kind: url
+    new_tab: false
+    children: []
+  - title: Port de commerce
+    target: https://www.ecocean.osuny.site/projets/activite/port-de-commerce/
+    kind: url
+    new_tab: false
+    children: []
+  - title: Port de plaisance
+    target: https://www.ecocean.osuny.site/projets/activite/port-de-plaisance/
+    kind: url
+    new_tab: false
+    children: []
+    path: "/"
+    file: content/fr/_index.html
 - title: Nos projets
   target: "/projets/"
   kind: page
