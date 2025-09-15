@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-06-24T17:43:33+02:00
-lastmod: 2025-09-03T15:01:07+02:00
+lastmod: 2025-09-15T17:40:43+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-06-24T17:43:33+02:00
-    updated_at: 2025-09-03T15:01:07+02:00
+    updated_at: 2025-09-15T17:40:43+02:00
     published_at: 2025-06-24T17:43:33+02:00
 search:
   id: "075b21f2-6622-4443-84ed-5a72a98fd623"
@@ -30,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    <p>Vous êtes </p>
+    <p>Votre besoin </p>  <p>Découvrez nos solutions et méthodologies adaptées à votre activité à vos besoins spécifiques</p>  <p> Nos réalisations </p>
 
 breadcrumbs:
   - title: >-
@@ -74,40 +74,105 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 1
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: categories
     title: >-
-      Vous êtes
+      Votre besoin
     slug: >-
-      vous-etes
+      votre-besoin
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
-          Vous êtes
+          Votre besoin
         heading: 2
-    data:
-      layout: grid
       description: >-
-        
+        <p>Découvrez nos solutions et méthodologies adaptées à votre activité à vos besoins spécifiques</p>
+    data:
+      layout: cards
+      description: >-
+        <p>Découvrez nos solutions et méthodologies adaptées à votre activité à vos besoins spécifiques</p>
 
       options:
-        count: true
-        image: true
-        summary: true
+        count: false
+        image: false
+        summary: false
 
-      category_kind: pages
-      taxonomy_id: d3c2322c-0701-4dcd-9ca4-3aa55b234419
+      category_kind: projects
+      taxonomy_id: ab418342-99c7-45f7-9888-6fffaaa572b4
 
+      taxonomy:
+        permalink: "/projets/activite/"
+        path: "/projects_categories/activite"
+        slug: "activite"
+        file: "content/fr/projects_categories/activite/_index.html"
+        name: "Activité"
       categories:
+        - permalink: "/projets/activite/port-de-commerce/"
+          path: "/projects_categories/activite/port-de-commerce"
+          slug: "activite/port-de-commerce"
+          file: "content/fr/projects_categories/activite/port-de-commerce/_index.html"
+          name: "Activité"
+          count: 1
+        - permalink: "/projets/activite/port-de-plaisance/"
+          path: "/projects_categories/activite/port-de-plaisance"
+          slug: "activite/port-de-plaisance"
+          file: "content/fr/projects_categories/activite/port-de-plaisance/_index.html"
+          name: "Activité"
+          count: 1
 
+
+  - kind: block
+    template: projects
+    title: >-
+      Nos réalisations
+    slug: >-
+      nos-realisations
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Nos réalisations
+        heading: 2
+        link: "/projets/"
+    data:
+      mode: all
+      all: true
+      layout: alternate
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/projets/2025-projet-2/"
+          path: "/projects/2025-projet-2"
+          slug: "projet-2"
+          file: "content/fr/projects/2025-projet-2.html"
+          name: >-
+            Projet 2
+        - permalink: "/projets/2024-quai-dezoum/"
+          path: "/projects/2024-quai-dezoum"
+          slug: "quai-dezoum"
+          file: "content/fr/projects/2024-quai-dezoum.html"
+          name: >-
+            Quai Dezoum
+
+      quantity: 2
 
 
 ---
