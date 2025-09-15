@@ -23,26 +23,20 @@ items:
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
-  target: "/nos-solutions/"
-  kind: page
+  target: "/projets/solution/biohut/"
+  kind: url
   new_tab: false
   children:
   - title: BioHut
-    target: "/nos-solutions/biohut/"
-    kind: page
+    target: "/projets/solution/biohut/"
+    kind: url
     new_tab: false
     children: []
-    path: "/pages/nos-solutions/biohut"
-    file: content/fr/pages/nos-solutions/biohut/_index.html
-  - title: BioRestore
-    target: "/nos-solutions/biorestore/"
-    kind: page
+  - title: BioHut
+    target: "/projets/solution/biohut/"
+    kind: url
     new_tab: false
     children: []
-    path: "/pages/nos-solutions/biorestore"
-    file: content/fr/pages/nos-solutions/biorestore/_index.html
-  path: "/pages/nos-solutions"
-  file: content/fr/pages/nos-solutions/_index.html
 - title: Votre besoin
   target: projets/activite
   kind: url
