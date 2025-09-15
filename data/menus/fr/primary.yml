@@ -32,8 +32,18 @@ items:
     kind: url
     new_tab: false
     children: []
-  - title: BioHut
-    target: "/projets/solution/biohut/"
+  - title: BioRestore
+    target: "/projets/solution/biorestore/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Radeaux végétalisés
+    target: "/projets/solution/radeaux-vegetalises/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Sensibilisation
+    target: "/projets/solution/sensibilisation/"
     kind: url
     new_tab: false
     children: []
@@ -74,7 +84,7 @@ items:
     children: []
     path: "/"
     file: content/fr/_index.html
-- title: Nos projets
+- title: Nos réalisations
   target: "/projets/"
   kind: page
   new_tab: false
