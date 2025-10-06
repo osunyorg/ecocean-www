@@ -6,7 +6,6 @@ params:
   search:
     active: true
   logo:
-    header: ''
     footer: ''
   home:
     head:
