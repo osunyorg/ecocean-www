@@ -23,11 +23,11 @@ items:
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
-  target: "/projets/solution/biohut/"
-  kind: url
+  target: ''
+  kind: blank
   new_tab: false
   children:
-  - title: BioHut
+  - title: Biohut
     target: "/projets/solution/biohut/"
     kind: url
     new_tab: false
@@ -47,13 +47,13 @@ items:
     kind: url
     new_tab: false
     children: []
-- title: Votre besoin
-  target: projets/activite
-  kind: url
+- title: Votre activité
+  target: ''
+  kind: blank
   new_tab: false
   children:
   - title: Aménageur
-    target: https://www.ecocean.osuny.site/projets/activite/amenageur/
+    target: "/projets/activite/amenageur/"
     kind: url
     new_tab: false
     children: []
