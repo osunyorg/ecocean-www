@@ -9,6 +9,32 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            EcoceanPCC
+          value: >-
+            https://www.facebook.com/EcoceanPCC
+        instagram:
+          label: >-
+            ecoceanfrance?hl=fr
+          value: >-
+            https://instagram.com/ecoceanfrance?hl=fr
+        linkedin:
+          label: >-
+            ecocean-sas
+          value: >-
+            https://www.linkedin.com/company/ecocean-sas/
+        x:
+          label: >-
+            EcoceanPCC?lang=fr
+          value: >-
+            https://x.com/EcoceanPCC?lang=fr
+        youtube:
+          label: >-
+            channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
+          value: >-
+            https://www.youtube.com/@channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
 
   taxonomies:
     administrator: administrators
