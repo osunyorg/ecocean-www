@@ -125,13 +125,20 @@ footer#document-footer
             -webkit-background-clip: text
             -webkit-text-fill-color: transparent
             margin: auto
+            margin-bottom: space(46)
             max-width: 11ch
             text-align: center
+        .hero-actions
+            text-align: center
+            a
+                @include button-reset
 
     @include media-breakpoint-down(desktop)
         .hero
             .hero-text
-                margin-bottom: space(29)
+                margin-bottom: 0
+            h1
+                margin-bottom: space(20)
 
     @include media-breakpoint-up(desktop)
         .hero
