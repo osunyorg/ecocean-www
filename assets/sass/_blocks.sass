@@ -1,11 +1,58 @@
+// top
+.block
+    &:not(.block-gallery, .block-image)
+        @include in-page-without-sidebar
+            .top
+                align-items: baseline
+                display: flex
+                gap: var(--grid-gutter)
+                .block-title
+                    @include h5
+                    width: columns(4)
+                    + .description
+                        margin-top: 0
+                .description
+                    @include lead-sidebar
+                    flex: 1
+    &:first-child
+        &.block-categories--cards
+            margin-top: var(--grid-gutter-negative) !important
+            @include media-breakpoint-up(desktop)
+                margin-top: -$spacing-5 !important
+
 // categories
 .block-categories
-    &--grid
+    [class$="-title"]
+        @include h3
+        a
+            color: var(--color-text-alt)
+    .category-item
+        &.ancestor-solutions
+            .media img
+                object-fit: contain
+    &--cards
+        background: var(--color-background-alt)
+        padding-bottom: space(9)
+        padding-top: space(9) !important
+        .block-title
+            @include h5
         .category-item
-            [class$="-title"]
-                @include h3
-                a
-                    color: var(--color-text-alt)
+            background-color: var(--color-background)
+            .category-content
+                display: flex
+                flex: 1
+                flex-direction: column
+                .more
+                    padding-top: $spacing-2
+                    margin-top: auto
+            .media
+                background-color: var(--color-accent)
+                padding: $spacing-2
+                img
+                    aspect-ratio: 1.400
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
 
 // timeline
 .block-timeline
@@ -21,9 +68,7 @@
             .block-title
                 margin-bottom: space(8)
             .description p
-                font-size: var(--lead-sidebar-size)
-                font-weight: normal
-                line-height: var(--lead-sidebar-line-height)
+                @include lead-sidebar
     &--no_background
         --cta-background-color: #{$color-background-alt}
 
@@ -35,3 +80,10 @@
                 @include signature
             strong
                 color: var(--color-text-alt)
+
+// gallery
+.block-gallery
+    &--grid
+        figure img
+            aspect-ratio: 1
+            object-fit: cover
