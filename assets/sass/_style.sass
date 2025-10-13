@@ -1,8 +1,8 @@
 // global
 // red logo on all pages but home
 html:not(.has-menu-opened)
-    body:not(.page__home)
-        header#document-header
+    body:not(.page__home) header#document-header,
+    body.page__home header#document-header.is-sticky
             .logo svg path
                 fill: $color-site-red
 //header
