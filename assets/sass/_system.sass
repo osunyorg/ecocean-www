@@ -69,6 +69,106 @@ header#document-header
 // footer
 footer#document-footer
     background: linear-gradient(180deg, #1F4C7A 0%, #0F283D 100%)
+    overflow: hidden
+    &::before
+        background:
+            image: url('/assets/images/logo.svg')
+            repeat: no-repeat
+            size: offset(4)
+            position: center right
+        bottom: 0
+        content: ''
+        left: 0
+        pointer-events: none
+        position: absolute
+        right: var(--grid-gutter-negative)
+        top: 0
+    > * 
+        position: relative
+        z-index: 2
+    h2
+        @include meta
+        color: alphaColor(var(--color-background), 0.8)
+        margin-bottom: $spacing-2
+    .container
+        padding-bottom: 0
+    .footer-menu
+        @include grid(3, desktop)
+        a
+            @include small-arrow-right-hover
+    .footer-menu
+        > li > a
+            @include h3
+            + *
+                margin-top: space(4)
+    .footer-site
+        @include meta
+        address, a
+            color: alphaColor(var(--color-background), 0.8)
+    .footer-credit
+        &:not(a)
+            color: alphaColor(var(--color-background), 0.8)
+
+    @include media-breakpoint-down(desktop)
+        padding-bottom: space(8)
+        padding-top: space(8)
+        &::before
+            background-size: pxToRem(347)
+            transform: translateX(25%)
+        .container
+            display: flex
+            flex-direction: column
+            gap: space(10)
+            > div, > p
+                margin-top: 0
+        .logo
+            order: -2
+        .footer-site
+            order: -1
+        .footer-menu,
+        .footer-menu--secondary
+            display: flex
+            flex-direction: column
+            gap: space(10)
+        .footer-social
+            order: -1
+            li
+                flex-direction: row
+                &::after
+                    margin-left: $spacing-2
+                    margin-right: 0
+
+    @include media-breakpoint-up(desktop)
+        .container
+            flex-wrap: wrap
+            gap: var(--grid-gutter)
+            justify-content: space-between
+            > div:first-of-type
+                border-bottom: 1px solid var(--color-text-alt)
+                padding-bottom: var(--grid-gutter)
+                width: 100%
+        .logo
+            order: 3
+        .footer-site
+            width: columns(4)
+        .footer-menu--secondary
+            @include grid(2, desktop)
+            width: columns(8)
+        .footer-site,
+        .footer-social
+            text-align: left
+        .footer-credit
+            margin-top: auto
+            order: 4
+            line-height: 1
+            text-align: right
+            width: columns(6)
+        .footer-menu > li > a + *
+            margin-top: $spacing-3
+        .footer-social li
+            justify-content: flex-start
+            margin-right: auto
+            width: fit-content
 
 // hero
 .hero

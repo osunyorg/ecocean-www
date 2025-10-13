@@ -1,0 +1,40 @@
+{{ $footer_primary := partial "GetMenu" "footer-primary" }}
+
+<div class="container">
+{{ partial "footer/logo.html" }}
+
+  <div>
+    {{ if $footer_primary.items }}
+      {{ partial "commons/menu.html" (dict
+        "kind" "footer-primary"
+        "level" 2
+        "context" .
+        "class" "footer-menu"
+      )}}
+    {{ end }}
+  </div>
+
+  <div class="footer-site">
+    {{ partial "footer/site.html" }}
+  </div>
+  
+  <div class="footer-menu--secondary">
+    
+    <div class="footer-legals">
+      <h2>{{ i18n "commons.footer.secondary_menu.legals" }}</h2>
+      {{ partial "footer/legals.html" . }}
+      {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+        <div class="footer-search">
+          {{ partial "commons/search/button.html" "footer" }}
+        </div>
+      {{ end }}
+    </div>
+  
+    <div class="footer-social">
+      <h2>{{ i18n "commons.footer.secondary_menu.socials" }}</h2>
+      {{ partial "footer/social.html" . }}
+    </div>
+  </div>
+
+  {{ partial "footer/credit.html" . }}
+</div>

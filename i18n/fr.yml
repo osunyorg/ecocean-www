@@ -1,3 +1,9 @@
 home:
   hero:
     cta: Défilez vers le bas
+commons:
+  credit: Un site éco-conçu par <a href="https://ctrls.studio/" title="Ctrl S - lien externe" target="_blank" rel="noreferrer">Ctrl S</a> avec <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
+  footer:
+    secondary_menu: 
+      legals: À propos
+      socials: Nous suivre
