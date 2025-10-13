@@ -1,7 +1,7 @@
 // global
 // red logo on all pages but home
 html:not(.has-menu-opened)
-    body:not(.page__home) header#document-header,
+    body:not(.page__home, .projects_categories__term) header#document-header,
     body.page__home header#document-header.is-sticky
             .logo svg path
                 fill: $color-site-red
@@ -79,9 +79,9 @@ footer#document-footer
                 margin-top: $spacing-4
 
 
-// home specifics
-.page__home
-    // header
+// specifics for project's solutions and home
+.page__home,
+.projects_categories__term
     header#document-header:not(.is-sticky)
         &, .dropdown-menu
             &, a, span, button
@@ -90,7 +90,11 @@ footer#document-footer
             color: var(--color-text)
             --btn-background: var(--color-background)
             --btn-hover-background: #{alphaColor(var(--btn-background), 0.9)}
+    .breadcrumb-nav
+        li, a, span, li::before
+            color: var(--color-background)
 
+// home specifics
     // hero
     .hero
         background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
@@ -131,3 +135,10 @@ footer#document-footer
                 gap: space(13)
                 figure
                     width: offset(3)
+
+// projects categories ('solutions')
+.projects_categories__term
+    .hero
+        background-color: $color-site-dark-blue
+        &, h1
+            color: var(--color-background)
