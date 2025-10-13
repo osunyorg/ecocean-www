@@ -1,7 +1,7 @@
 // global
 // red logo on all pages but home
 html:not(.has-menu-opened)
-    body:not(.page__home, .projects_categories__term) header#document-header,
+    body:not(.page__home, .ancestor-solutions) header#document-header,
     body.page__home header#document-header.is-sticky
             .logo svg path
                 fill: $color-site-red
@@ -81,7 +81,7 @@ footer#document-footer
 
 // specifics for project's solutions and home
 .page__home,
-.projects_categories__term
+.ancestor-solutions
     header#document-header:not(.is-sticky)
         &, .dropdown-menu
             &, a, span, button
@@ -137,7 +137,7 @@ footer#document-footer
                     width: offset(3)
 
 // projects categories ('solutions')
-.projects_categories__term
+.ancestor-solutions
     .hero
         background-color: $color-site-dark-blue
         &, h1
