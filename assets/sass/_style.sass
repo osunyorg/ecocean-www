@@ -1,4 +1,69 @@
-.hero
-    h1
-        color: #{$color-accent-alt}
+//header
+header#document-header
+    .nav-level-1
+        > li:nth-last-child(2) a
+            @extend .button--accent
+
+    .nav-level-2 > li a
+        @include small-arrow-right-hover
     
+    html.has-menu-opened &
+        &, .dropdown-menu
+            background: #{$header-dropdown-background}
+            &, a, span, button
+                color: $header-dropdown-color
+        .button--accent
+            color: var(--color-text)
+            --btn-background: var(--color-background)
+            --btn-hover-background: #{alphaColor(var(--btn-background), 0.9)}
+
+    @include media-breakpoint-down(desktop)
+        .primary-menu
+            html.has-menu-opened &
+                height: 100vh
+            .header-button
+                span:first-of-type
+                    text-transform: none
+        .nav-level-1
+            > li
+                border-color: var(--color-background)
+                > a, > span, > button, > button span
+                    @include signature
+                .dropdown-menu-heading
+                    display: none
+                &:nth-last-child(2),
+                &:nth-last-child(3)
+                    border: none
+                &:nth-last-child(2)
+                    a
+                        width: 100%
+        .nav-level-2 > li
+            > a, > span, > button
+                @include meta
+        .is-titled
+            .nav-level-2
+                margin-top: 0
+
+    @include media-breakpoint-up(desktop)
+        .nav-level-1
+            > li:nth-last-child(2)
+                margin-left: space(6)
+                margin-right: space(8)
+        .nav-level-2
+            li + li
+                margin-top: $spacing-3
+        .dropdown-menu
+            height: 80vh
+
+// footer
+footer#document-footer
+    background: linear-gradient(180deg, #1F4C7A 0%, #0F283D 100%)
+
+// hero
+.hero
+    .content 
+        h1
+            color: #{$color-accent-alt}
+        @include media-breakpoint-up(desktop)
+            h1 + p
+                margin-top: $spacing-4

@@ -6,7 +6,16 @@ params:
   search:
     active: true
   logo:
-    footer: ''
+    footer: '/assets/images/logo-footer.svg'
+  i18n:
+    positions:
+      - primary
+  menu:
+    primary:
+      level_2:
+        summary:
+        title:
+          active: true
   home:
     head:
       title: site
