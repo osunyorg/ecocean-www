@@ -95,14 +95,21 @@ footer#document-footer
             color: var(--color-background)
 
 // home specifics
+.page__home
     // hero
     .hero
         background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
+        padding-bottom: space(8)
+        &, .container
+            display: flex
+            flex-direction: column
+        .container, 
+        .content
+            flex: 1
         .content
             align-items: center
             display: flex
             flex-direction: column
-            height: 100%
             justify-content: center
             gap: space(11)
             padding-top: $spacing-6
