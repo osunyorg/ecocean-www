@@ -1,3 +1,4 @@
+// categories
 .block-categories
     &--grid
         .category-item
@@ -6,7 +7,14 @@
                 a
                     color: var(--color-text-alt)
 
+// timeline
+.block-timeline
+    &--horizontal
+        .timeline-event 
+            .title
+                @include h4
 
+// cta | call to action
 .block-call_to_action
     .call_to_action
         .top
@@ -18,3 +26,12 @@
                 line-height: var(--lead-sidebar-line-height)
     &--no_background
         --cta-background-color: #{$color-background-alt}
+
+// key figures
+.block-key_figures
+    li
+        .key-figure-text
+            > span
+                @include signature
+            strong
+                color: var(--color-text-alt)
