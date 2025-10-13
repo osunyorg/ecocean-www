@@ -1,3 +1,10 @@
+// global
+// red logo on all pages but home
+html:not(.has-menu-opened)
+    body:not(.page__home)
+        header#document-header
+            .logo svg path
+                fill: $color-site-red
 //header
 header#document-header
     .nav-level-1
@@ -70,3 +77,57 @@ footer#document-footer
         @include media-breakpoint-up(desktop)
             h1 + p
                 margin-top: $spacing-4
+
+
+// home specifics
+.page__home
+    // header
+    header#document-header
+        &, .dropdown-menu
+            &, a, span, button
+                color: $header-dropdown-color
+        .button--accent
+            color: var(--color-text)
+            --btn-background: var(--color-background)
+            --btn-hover-background: #{alphaColor(var(--btn-background), 0.9)}
+
+    // hero
+    .hero
+        background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
+        .content
+            align-items: center
+            display: flex
+            flex-direction: column
+            height: 100%
+            justify-content: center
+            gap: space(11)
+            padding-top: $spacing-6
+            figure
+                order: -1
+                width: columns(9)
+            .hero-text
+                margin-top: 0
+                width: 100%
+        h1
+            background: #FFFFFF
+            background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%)
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            margin: auto
+            max-width: 11ch
+            text-align: center
+
+    @include media-breakpoint-down(desktop)
+        .hero
+            .hero-text
+                margin-bottom: space(29)
+
+    @include media-breakpoint-up(desktop)
+        .hero
+            height: 80vh
+            h1
+                max-width: 23ch
+            .content
+                gap: space(13)
+                figure
+                    width: offset(3)
