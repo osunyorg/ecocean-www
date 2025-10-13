@@ -1,0 +1,20 @@
+.block-categories
+    &--grid
+        .category-item
+            [class$="-title"]
+                @include h3
+                a
+                    color: var(--color-text-alt)
+
+
+.block-call_to_action
+    .call_to_action
+        .top
+            .block-title
+                margin-bottom: space(8)
+            .description p
+                font-size: var(--lead-sidebar-size)
+                font-weight: normal
+                line-height: var(--lead-sidebar-line-height)
+    &--no_background
+        --cta-background-color: #{$color-background-alt}
