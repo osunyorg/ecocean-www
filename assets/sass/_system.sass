@@ -128,10 +128,16 @@ footer#document-footer
             margin-bottom: space(46)
             max-width: 11ch
             text-align: center
-        .hero-actions
-            text-align: center
-            a
-                @include button-reset
+    .quick-navigation
+        text-align: center
+        a
+            @include icon(arrow-right-line, after)
+            @include meta
+            color: var(--color-background)
+            &::after
+                display: inline-block
+                margin-left: space()
+                transform: rotate(90deg)
 
     @include media-breakpoint-down(desktop)
         .hero
