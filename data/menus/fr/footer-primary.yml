@@ -1,0 +1,73 @@
+---
+title: Footer
+items:
+- title: Nos solutions
+  target: "/projets/solutions"
+  kind: url
+  new_tab: false
+  children:
+  - title: Biohut
+    target: "/projets/solution/biohut/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: BioRestore
+    target: "/projets/solution/biorestore/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Radeaux végétalisés
+    target: "/projets/solution/radeaux-vegetalises/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Sensibilisation
+    target: "/projets/solution/sensibilisation/"
+    kind: url
+    new_tab: false
+    children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Votre activité
+  target: "/projets/activite/"
+  kind: url
+  new_tab: false
+  children:
+  - title: Aménageur
+    target: "/projets/activite/amenageur/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Bureau d'étude et AMO
+    target: "/projets/activite/bureau-detude-et-amo/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Collectivité
+    target: "/projets/activite/collectivite/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Énergéticien
+    target: "/projets/activite/energeticien/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Port de commerce
+    target: "/projets/activite/port-de-commerce/"
+    kind: url
+    new_tab: false
+    children: []
+  - title: Port de plaisance
+    target: "/projets/activite/port-de-plaisance/"
+    kind: url
+    new_tab: false
+    children: []
+- title: Nos réalisations
+  target: "/projets/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+
