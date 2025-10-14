@@ -42,6 +42,8 @@
         background: var(--color-background-alt)
         padding-bottom: space(9)
         padding-top: space(9) !important
+        .categories
+            min-height: unset
         .block-title
             @include h5
         .category-item
@@ -155,3 +157,34 @@
             &:hover
                 .media
                     border-color: var(--color-accent)
+
+// testimonials
+.block-testimonials
+    figure
+        figcaption
+            margin-top: space(8) !important
+            .meta
+                color: var(--color-accent)
+                margin-top: $spacing-1
+    .slider-controls 
+        --color-border: var(--color-text)
+        .slider-pagination li::after
+            background-color: $color-site-red
+    .slider-autoplayer > button
+        color: $color-site-red
+
+    @include in-page-without-sidebar
+        .testimonial,
+        .slider-controls
+            // width: columns(8)
+            padding-left: offset(2)
+            padding-right: offset(2)
+        figure.with-picture
+            padding-top: calc(#{offset(1)} + #{space(8)})
+            figcaption
+                gap: var(--column-width)
+                .avatar
+                    left: offset(2)
+                    margin-left: 0
+                    margin-right: 0
+                    width: offset(1)
