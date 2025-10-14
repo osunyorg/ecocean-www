@@ -24,8 +24,9 @@
             @include media-breakpoint-up(desktop)
                 margin-top: -$spacing-5 !important
     @include media-breakpoint-up(desktop)
-        .top
-            margin-bottom: $spacing-5
+        &:not(.block-call_to_action)
+            .top
+                margin-bottom: $spacing-5
 
 // categories
 .block-categories
@@ -87,6 +88,7 @@
                 @include signature
             strong
                 color: var(--color-text-alt)
+
     @include media-breakpoint-up(desktop)
         .top + ul
             margin-top: $spacing-5
@@ -97,6 +99,22 @@
         figure img
             aspect-ratio: 1
             object-fit: cover
+
+    &--carousel
+        .slider-progression
+            color: var(--color-accent)
+
+        @include in-page-without-sidebar
+            background: none
+        
+        @include media-breakpoint-up(desktop)
+            .slider-arrows
+                margin-top: $spacing-3
+    
+    figure
+        figcaption
+            .credit
+                color: var(--color-accent)
 
 // files
 .block-files

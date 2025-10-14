@@ -1,0 +1,46 @@
+.section-sidebar
+    --color-border: var(--color-text)
+    --color-text-alt: var(--color-accent)
+    li > ul
+        --color-accent: #{$color-site-red}
+
+// toc
+.toc
+    li a
+        @include icon(arrow-right-s-line)
+            display: inline-block
+
+        @include media-breakpoint-up(desktop)
+            &::before
+                margin-left: -24px
+                transition: 0.3s ease
+            
+            &.active::before
+                margin-left: -7px
+
+// projects
+.projects__page
+    .hero
+        .hero-text
+            h1
+                span
+                    @include h2
+                    color: var(--color-text)
+                    margin-top: $spacing-1
+
+    .block-organizations--large
+        .organization
+            &-title
+                a
+                    @include small-arrow-right-hover
+                    text-decoration: none !important
+                    
+                    @include media-breakpoint-up(xxl)
+                        &::after
+                            font-size: 75%
+                    
+                    @include media-breakpoint-down(xxl)
+                        @include h3
+
+                + *
+                    margin-top: $spacing-2
