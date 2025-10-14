@@ -1,0 +1,9 @@
+---
+title: Footer contact
+items:
+- title: Nous contacter
+  target: mailto:contact@ecocean.fr
+  kind: url
+  new_tab: false
+  children: []
+

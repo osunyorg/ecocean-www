@@ -92,7 +92,7 @@ items:
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Nous contacter
-  target: ecocean.fr
+  target: mailto:contact@ecocean.fr
   kind: url
   new_tab: false
   children: []
