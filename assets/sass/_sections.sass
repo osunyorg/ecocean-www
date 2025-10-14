@@ -13,12 +13,13 @@ html:has(.page__home)
     .projects--grid
         @include alternate(".project")
         display: block !important
-        .project
-            @include media-breakpoint-down(desktop)
-                + .project
-                    margin-top: $spacing-4
 
-            @include media-breakpoint-up(desktop)
+        @include media-breakpoint-down(desktop)
+            .project + .project
+                margin-top: $spacing-4
+
+        @include media-breakpoint-up(desktop)
+            .project
                 width: columns(7)
                 + .project
                     margin-top: $spacing-6
@@ -26,13 +27,11 @@ html:has(.page__home)
                     margin-left: auto
 
 .projects__page
-    .hero
-        .hero-text
-            h1
-                span
-                    @include h2
-                    color: var(--color-text)
-                    margin-top: $spacing-1
+    .hero h1
+        span
+            @include h2
+            color: var(--color-text)
+            margin-top: $spacing-1
 
     .block-organizations--large
         .organization
@@ -47,7 +46,6 @@ html:has(.page__home)
                     
                     @include media-breakpoint-down(xxl)
                         @include h3
-
                 + *
                     margin-top: $spacing-2
             .media
@@ -59,6 +57,10 @@ html:has(.page__home)
 
 
 .projects_categories__term
+    &:not(.ancestor-solutions)
+        .hero
+            padding-bottom: 0
+
     &.page-activity
         .document-content
             display: flex

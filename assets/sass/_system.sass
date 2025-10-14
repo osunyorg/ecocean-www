@@ -193,9 +193,6 @@ footer#document-footer
             h1 + p
                 margin-top: $spacing-4
 
-    body:not(.page__home) &
-        padding-bottom: 0
-
 // toc
 .toc
     li a
@@ -226,68 +223,6 @@ footer#document-footer
     .breadcrumb-nav
         li, a, span, li::before
             color: var(--color-background)
-
-// home specifics
-.page__home
-    // hero
-    .hero
-        background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
-        padding-bottom: space(8)
-        &, .container
-            display: flex
-            flex-direction: column
-        .container, 
-        .content
-            flex: 1
-        .content
-            align-items: center
-            display: flex
-            flex-direction: column
-            justify-content: center
-            gap: space(11)
-            padding-top: $spacing-6
-            figure
-                order: -1
-                width: columns(9)
-            .hero-text
-                margin-top: 0
-                width: 100%
-        h1
-            background: #FFFFFF
-            background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%)
-            -webkit-background-clip: text
-            -webkit-text-fill-color: transparent
-            margin: auto
-            margin-bottom: space(46)
-            max-width: 11ch
-            text-align: center
-    .quick-navigation
-        text-align: center
-        a
-            @include icon(arrow-right-line, after)
-            @include meta
-            color: var(--color-background)
-            &::after
-                display: inline-block
-                margin-left: space()
-                transform: rotate(90deg)
-
-    @include media-breakpoint-down(desktop)
-        .hero
-            .hero-text
-                margin-bottom: 0
-            h1
-                margin-bottom: space(20)
-
-    @include media-breakpoint-up(desktop)
-        .hero
-            min-height: 80vh
-            h1
-                max-width: 23ch
-            .content
-                gap: space(13)
-                figure
-                    width: offset(3)
 
 // projects categories ('solutions')
 .ancestor-solutions
