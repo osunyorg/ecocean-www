@@ -14,11 +14,18 @@
                 .description
                     @include lead-sidebar
                     flex: 1
+    &.block-key_figures
+        @include in-page-without-sidebar
+            .top .block-title
+                width: columns(3)
     &:first-child
         &.block-categories--cards
             margin-top: var(--grid-gutter-negative) !important
             @include media-breakpoint-up(desktop)
                 margin-top: -$spacing-5 !important
+    @include media-breakpoint-up(desktop)
+        .top
+            margin-bottom: $spacing-5
 
 // categories
 .block-categories
@@ -80,6 +87,9 @@
                 @include signature
             strong
                 color: var(--color-text-alt)
+    @include media-breakpoint-up(desktop)
+        .top + ul
+            margin-top: $spacing-5
 
 // gallery
 .block-gallery
@@ -87,3 +97,38 @@
         figure img
             aspect-ratio: 1
             object-fit: cover
+
+// files
+.block-files
+    .files
+        li
+            &::before
+                --color-border: var(--color-text)
+                border-radius: #{$btn-border-radius}
+            figcaption
+                color: var(--color-accent)
+
+// video
+.block-video
+    .lazy-video-player::after
+        background-color: alphaColor($color-site-dark-blue, 0.9)
+    .lazy-video-player__play
+        height: pxToRem(72)
+        width: pxToRem(72)
+        border-color: alphaColor(var(--color-background), 0.5)
+        &::before
+            font-size: pxToRem(18)
+            padding-top: pxToRem(1)
+        &:hover::before
+            color: $color-site-dark-blue
+
+// organizations
+.block-organizations
+    &--grid
+        .organization
+            .media
+                border: 1px solid transparent
+                transition: all 0.3s
+            &:hover
+                .media
+                    border-color: var(--color-accent)

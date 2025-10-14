@@ -1,8 +1,12 @@
 // global
 // red logo on all pages but home
 html:not(.has-menu-opened)
-    body:not(.page__home, .ancestor-solutions) header#document-header,
-    body.page__home header#document-header.is-sticky
+    body:not(.page__home, .ancestor-solutions) header#document-header
+        .logo svg path
+            fill: $color-site-red
+    body.page__home,
+    body.ancestor-solutions
+        header#document-header.is-sticky
             .logo svg path
                 fill: $color-site-red
 
@@ -75,7 +79,7 @@ footer#document-footer
             image: url('/assets/images/logo.svg')
             repeat: no-repeat
             size: offset(4)
-            position: center right
+            position: 99% 22%
         bottom: 0
         content: ''
         left: 0
@@ -95,6 +99,7 @@ footer#document-footer
     .footer-menu
         @include grid(3, desktop)
         a
+            @include signature
             @include small-arrow-right-hover
     .footer-menu
         > li > a
@@ -103,8 +108,15 @@ footer#document-footer
                 margin-top: space(4)
     .footer-site
         @include meta
-        address, a
-            color: alphaColor(var(--color-background), 0.8)
+        .footer-cta 
+            a
+                @include signature
+                @include small-arrow-right-hover
+            + *
+                margin-top: space(4)
+        > div 
+            address, a
+                color: alphaColor(var(--color-background), 0.8)
     .footer-credit
         &:not(a)
             color: alphaColor(var(--color-background), 0.8)
@@ -113,7 +125,9 @@ footer#document-footer
         padding-bottom: space(8)
         padding-top: space(8)
         &::before
-            background-size: pxToRem(347)
+            background:    
+                position: center right
+                size: pxToRem(347)
             transform: translateX(25%)
         .container
             display: flex

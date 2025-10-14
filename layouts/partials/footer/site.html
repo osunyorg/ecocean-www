@@ -1,3 +1,14 @@
+{{ $footer_contact := partial "GetMenu" "footer-contact" }}
+
+{{ if $footer_contact.items }}
+  {{ partial "commons/menu.html" (dict
+    "kind" "footer-contact"
+    "level" 2
+    "context" .
+    "class" "footer-cta"
+  )}}
+{{ end }}
+
 <div itemscope="" itemtype="https://schema.org/Organization">
   <address itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
     <span itemprop="streetAddress">1342 Avenue de Toulouse</span>

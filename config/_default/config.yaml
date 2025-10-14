@@ -19,3 +19,5 @@ params:
   home:
     head:
       title: site
+  organizations:
+    prefer_image_over_logo: true
