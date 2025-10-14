@@ -21,3 +21,8 @@ params:
       title: site
   organizations:
     prefer_image_over_logo: true
+    index:
+      taxonomies:
+        display: false
+    single:
+      backlinks: true

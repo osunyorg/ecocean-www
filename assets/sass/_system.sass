@@ -186,13 +186,31 @@ footer#document-footer
 
 // hero
 .hero
-    .content 
+    .content
         h1
             color: #{$color-accent-alt}
         @include media-breakpoint-up(desktop)
             h1 + p
                 margin-top: $spacing-4
 
+    body:not(.page__home) &
+        padding-bottom: 0
+
+// toc
+.toc
+    li a
+        @include icon(arrow-right-s-line)
+            display: inline-block
+
+        @include media-breakpoint-up(desktop)
+            &::before
+                margin-left: -24px
+                transition: all 0.3s ease
+                opacity: 0
+            
+            &.active::before
+                margin-left: -7px
+                opacity: 1
 
 // specifics for project's solutions and home
 .page__home,

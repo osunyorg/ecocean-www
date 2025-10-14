@@ -28,6 +28,12 @@
             .top
                 margin-bottom: $spacing-5
 
+// layout cards
+[class$="--cards"]
+    article
+        overflow: hidden
+        border-radius: $btn-border-radius
+
 // categories
 .block-categories
     [class$="-title"]
@@ -36,8 +42,9 @@
             color: var(--color-text-alt)
     .category-item
         &.ancestor-solutions
-            .media img
-                object-fit: contain
+            .media
+                @include media-solutions
+
     &--cards
         background: var(--color-background-alt)
         padding-bottom: space(9)
@@ -47,7 +54,7 @@
         .block-title
             @include h5
         .category-item
-            background-color: var(--color-background)
+            background-color: $layout-cards-item-background
             .category-content
                 display: flex
                 flex: 1
@@ -55,11 +62,8 @@
                 .more
                     padding-top: $spacing-2
                     margin-top: auto
-            .media
-                background-color: var(--color-accent)
-                padding: $spacing-2
-                img
-                    aspect-ratio: 1.400
+            .media img
+                aspect-ratio: 1.400
         @include media-breakpoint-up(desktop)
             padding-bottom: $spacing-5
             padding-top: $spacing-5
@@ -149,11 +153,23 @@
             @extend .button--small
             @extend .button--accent
             --btn-hover-background: var(--color-text)
+            .block-organizations
+        .map
+            background-color: var(--color-accent)
+            background-image: linear-gradient(180deg, $color-accent-alt 0%, $color-accent 100%)
+            .leaflet-tile
+                filter: grayscale(100%)
+                mix-blend-mode: multiply
+                opacity: 50% !important
+                pointer-events: none
     &--grid
         .organization
             .media
                 border: 1px solid transparent
                 transition: all 0.3s
+            &, &:not(.with-summaries)
+                .organization-title
+                    @include h4
             &:hover
                 .media
                     border-color: var(--color-accent)
@@ -173,6 +189,13 @@
     .slider-autoplayer > button
         color: $color-site-red
 
+    .page__home &:not(.block-titled)
+        padding-bottom: space(9)
+        padding-top: space(9)
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
+
     @include in-page-without-sidebar
         .testimonial,
         .slider-controls
@@ -188,3 +211,18 @@
                     margin-left: 0
                     margin-right: 0
                     width: offset(1)
+
+// projects
+.block-projects,
+.projects
+    .project
+        .project-title a
+            color: var(--color-text-alt)
+        .project-subtitle,
+        .project-meta time
+            color: var(--color-text)
+        .project-summary,
+        .project-categories
+            margin-top: space(4)
+        .project-categories a
+            @include link($color-site-dark-red)
