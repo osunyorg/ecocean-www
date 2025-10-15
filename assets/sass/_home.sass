@@ -1,3 +1,21 @@
+// hero animations
+@keyframes rotate
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+
+@keyframes bounce
+    0%
+        transform: rotate(90deg) translateX(0%)
+    1%
+        transform: rotate(90deg) translateX(0%)
+    50%
+        transform: rotate(90deg) translateX(-25%)
+    100%
+        transform: rotate(90deg) translateX(0%)
+        
+    
 .page__home
     // hero
     .hero
@@ -5,13 +23,14 @@
         padding-bottom: space(8)
         &::before
             content: ''
+            background: linear-gradient(0deg, #142259 0%, rgba(0, 0, 0, 0) 20%)
             bottom: 0
             left: 0
             pointer-events: none
             position: absolute
             right: 0
             top: 0
-            z-index: 2
+            z-index: 1
         > *:not(.animation-container)
             position: relative
             z-index: 1
@@ -51,10 +70,16 @@
             @include icon(arrow-right-line, after)
             @include meta
             color: var(--color-background)
+            text-decoration: none
             &::after
                 display: inline-block
                 margin-left: space()
-                transform: rotate(90deg)
+                transform: rotate(90deg) translate(0%)
+                transition: transform 0.3s ease
+            &::after
+                animation: bounce 3s infinite both
+            &:hover::after
+                animation: bounce paused
 
     @include media-breakpoint-down(desktop)
         .hero
@@ -80,13 +105,6 @@
                 gap: space(13)
                 figure
                     width: offset(3)
-
-// hero animation
-@keyframes rotate
-    0%
-        transform: rotate(0deg)
-    100%
-        transform: rotate(360deg)
 
 .animation-container
     background: $color-site-animation-background
