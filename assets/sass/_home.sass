@@ -54,11 +54,19 @@
             h1
                 margin-bottom: space(20)
 
+            @include media-breakpoint-up(md)
+                .content
+                    figure
+                        width: columns(6)
+
+    @include media-breakpoint-up(md)
+        .hero
+            h1
+                max-width: 23ch
+
     @include media-breakpoint-up(desktop)
         .hero
             min-height: 80vh
-            h1
-                max-width: 23ch
             .content
                 gap: space(13)
                 figure

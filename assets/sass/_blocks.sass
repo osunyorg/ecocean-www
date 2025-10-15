@@ -1,6 +1,6 @@
 // top
 .block
-    &:not(.block-gallery, .block-image)
+    &.block-categories
         @include in-page-without-sidebar
             .top
                 align-items: baseline
@@ -14,10 +14,6 @@
                 .description
                     @include lead-sidebar
                     flex: 1
-    &.block-key_figures
-        @include in-page-without-sidebar
-            .top .block-title
-                width: columns(3)
     &:first-child
         &.block-categories--cards
             margin-top: var(--grid-gutter-negative) !important
@@ -66,7 +62,7 @@
                 aspect-ratio: 1.400
         @include media-breakpoint-up(desktop)
             padding-bottom: $spacing-5
-            padding-top: $spacing-5
+            padding-top: $spacing-5 !important
 
 // timeline
 .block-timeline
@@ -131,11 +127,14 @@
                 border-radius: #{$btn-border-radius}
             figcaption
                 color: var(--color-accent)
+            picture img
+                border-radius: #{$btn-border-radius}
 
 // video
 .block-video
     .lazy-video-player::after
         background-color: alphaColor($color-site-dark-blue, 0.9)
+        mix-blend-mode: multiply
     .lazy-video-player__play
         height: pxToRem(72)
         width: pxToRem(72)
@@ -226,3 +225,27 @@
             margin-top: space(4)
         .project-categories a
             @include link($color-site-dark-red)
+
+// events
+.block-agenda
+    &--large
+        .event
+            &-title a
+                font-weight: $h2-weight
+                color: var(--color-text-alt)
+            &-subtitle
+                @include h3
+                color: var(--color-text)
+            &-schedule
+                margin-bottom: $spacing-3 !important
+                margin-top: $spacing-3
+                .event-time
+                    color: var(--color-accent)
+            .media
+                img
+                    aspect-ratio: 1.375
+            @include in-page-with-or-without-sidebar
+                .event-subtitle
+                    @include h3
+                .event-dates
+                    @include h4
