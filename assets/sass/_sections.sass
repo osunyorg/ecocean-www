@@ -44,18 +44,14 @@ html:has(.page__home)
                     @include media-breakpoint-up(xxl)
                         &::after
                             font-size: 75%
-                    
-                    @include media-breakpoint-down(xxl)
-                        @include h3
                 + *
                     margin-top: $spacing-2
-            .media
+            .media--image
                 border-radius: $btn-border-radius
                 background: var(--color-accent)
-                background-image: linear-gradient(180deg, $color-accent-alt 0%, $color-text 100%)
                 img
-                    filter: brightness(1.5) grayscale(1)
-                    mix-blend-mode: multiply
+                    filter: brightness(0.5) grayscale(1)
+                    mix-blend-mode: luminosity
 
 
 .projects_categories__term
@@ -90,7 +86,6 @@ html:has(.page__home)
     &.ancestor-activity
         .block-call_to_action--accent_background
             figure img
-                mix-blend-mode: multiply
                 border-radius: 100%
 
 // categories

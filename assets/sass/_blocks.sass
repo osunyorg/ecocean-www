@@ -25,10 +25,13 @@
                 margin-bottom: $spacing-5
 
 // layout cards
-[class$="--cards"]
-    article
+[class*="--cards"]
+    article,
+    .card
         overflow: hidden
         border-radius: $btn-border-radius
+        [class$="-title"] a:not(:hover)
+            color: var(--color-text-alt)
 
 // categories
 .block-categories
@@ -173,6 +176,18 @@
                 .media
                     border-color: var(--color-accent)
 
+    &--large
+        .organization
+            align-items: center
+            .organization-content
+                .organization-title
+                    font-size: var(--lead-size)
+                    font-weight: $lead-weight
+                    line-height: 106%
+                    
+                    @include media-breakpoint-down(xxl)
+                        @include h3
+
 // testimonials
 .block-testimonials
     figure
@@ -217,14 +232,25 @@
     .project
         .project-title a
             color: var(--color-text-alt)
-        .project-subtitle,
-        .project-meta time
+        .project-subtitle
             color: var(--color-text)
+        .project-meta time
+            color: var(--color-accent)
         .project-summary,
         .project-categories
             margin-top: space(4)
         .project-categories a
             @include link($color-site-dark-red)
+    &--grid
+        .project-content
+            flex-direction: column
+            gap: $spacing-1
+        .media img
+            aspect-ratio: 1.571
+        @include media-breakpoint-down(desktop)
+            .project .media
+                margin-left: 0
+                margin-right: 0
 
 // events
 .block-agenda

@@ -26,3 +26,7 @@ params:
         display: false
     single:
       backlinks: true
+  persons:
+    index:
+      taxonomies:
+        display: false
