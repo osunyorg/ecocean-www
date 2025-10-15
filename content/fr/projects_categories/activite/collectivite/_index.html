@@ -13,7 +13,7 @@ meta:
     slug: "activite/collectivite"
   dates:
     created_at: 2025-09-11T16:51:53+02:00
-    updated_at: 2025-10-15T10:50:26+02:00
+    updated_at: 2025-10-15T11:04:39+02:00
 search:
   id: "7680d28e-b81e-40eb-b9ac-b63295b0da8c"
   about_id: "a5b82320-a1fe-4d54-bd42-bcd18b51192a"
@@ -25,7 +25,7 @@ search:
   summary: >-
     <p>Vous êtes une collectivités et vous souhaitez vous engager dans une démarche environnementale dans votre territoire ? Nous pouvons construire avec vous un projet sur mesure.</p>
   body: >-
-    <p>Vous accompagner  <br>   <br>Texte d’explication de la méthode d’accompagnement des collectivités. Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>   <br>Pré-diagnostic <br>Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>Rédaction du cahier des charges <br>Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>Étape</p>  <p>  L’accompagnement d’Ecocean a été exemplaire, du début à la fin. <br>Nom Prénom <br>Métier, profession, responsabilité.</p>  <p> Les témoignages de nos collectivités partenaires </p>  <p>https://youtu.be/IAvIPo3YtPg <br>Sentier sous-marin Port Fréjus</p>  <p> Découvrez nos solutions adaptées  <br>   <br>Régis Calcar est à votre disposition pour discuter avec vous de votre projet.</p>  <p>Prendre contact avec Régis</p>
+    <p>Vous accompagner  <br>   <br>Texte d’explication de la méthode d’accompagnement des collectivités. Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>   <br>Pré-diagnostic <br>Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>Rédaction du cahier des charges <br>Lorem ipsum dolor sit amet consectetur. Sapien in eget lectus senectus purus blandit sit. Tortor sed nisi eu lacus ut scelerisque scelerisque odio sed.</p>  <p>Étape</p>  <p>  L’accompagnement d’Ecocean a été exemplaire, du début à la fin. <br>Nom Prénom <br>Métier, profession, responsabilité.</p>  <p> Les témoignages de nos collectivités partenaires </p>  <p>https://youtu.be/IAvIPo3YtPg <br>Sentier sous-marin Port Fréjus</p>  <p> Découvrez nos solutions adaptées  <br>   <br>Régis Calcar est à votre disposition pour discuter avec vous de votre projet.</p>  <p>Prendre contact avec Régis</p>  <p> Découvrez les retours d’expérience d’autres collectivités  </p>
 
 breadcrumbs:
   - title: >-
@@ -59,7 +59,7 @@ summary: >-
   <p>Vous êtes une collectivités et vous souhaitez vous engager dans une démarche environnementale dans votre territoire ? Nous pouvons construire avec vous un projet sur mesure.</p>
 
 contents_reading_time:
-  seconds: 39
+  seconds: 42
   text: >-
     1 minute
 contents:
@@ -233,7 +233,7 @@ contents:
 
 
   - kind: block
-    template: persons
+    template: categories
     title: >-
       
     slug: >-
@@ -244,25 +244,49 @@ contents:
     top:
       active: false
     data:
+      layout: grid
       description: >-
         
 
-      layout: large
       options:
+        count: false
         image: true
         summary: true
-        link: false
-        contact: false
 
-      persons:
-        - permalink: "/equipe/gilles-lecaillon/"
-          path: "/persons/gilles-lecaillon"
-          slug: "gilles-lecaillon"
-          file: "content/fr/persons/gilles-lecaillon.html"
-          role: >-
-            
+      category_kind: projects
+      taxonomy_id: 51cac05b-fde8-455d-be75-f122bdaa591a
 
-      quantity: 1
+      taxonomy:
+        permalink: "/projets/solutions/"
+        path: "/projects_categories/solutions"
+        slug: "solutions"
+        file: "content/fr/projects_categories/solutions/_index.html"
+        name: "Solutions"
+      categories:
+        - permalink: "/projets/solutions/biohut/"
+          path: "/projects_categories/solutions/biohut"
+          slug: "solutions/biohut"
+          file: "content/fr/projects_categories/solutions/biohut/_index.html"
+          name: "Solutions"
+          count: 3
+        - permalink: "/projets/solutions/biorestore/"
+          path: "/projects_categories/solutions/biorestore"
+          slug: "solutions/biorestore"
+          file: "content/fr/projects_categories/solutions/biorestore/_index.html"
+          name: "Solutions"
+          count: 1
+        - permalink: "/projets/solutions/radeaux-vegetalises/"
+          path: "/projects_categories/solutions/radeaux-vegetalises"
+          slug: "solutions/radeaux-vegetalises"
+          file: "content/fr/projects_categories/solutions/radeaux-vegetalises/_index.html"
+          name: "Solutions"
+          count: 1
+        - permalink: "/projets/solutions/sensibilisation/"
+          path: "/projects_categories/solutions/sensibilisation"
+          slug: "solutions/sensibilisation"
+          file: "content/fr/projects_categories/solutions/sensibilisation/_index.html"
+          name: "Solutions"
+          count: 1
 
 
   - kind: block
@@ -301,6 +325,57 @@ contents:
 
           target_blank: false
 
+
+  - kind: block
+    template: title
+    title: >-
+      Découvrez les retours d’expérience d’autres collectivités
+    slug: >-
+      decouvrez-les-retours-d-experience-d-autres-collectivites
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Découvrez les retours d’expérience d’autres collectivités
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      mode: category
+      category: "activite/collectivite"
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/projets/2022-radeaux-vegetalises-bruxelles/"
+          path: "/projects/2022-radeaux-vegetalises-bruxelles"
+          slug: "radeaux-vegetalises-bruxelles"
+          file: "content/fr/projects/2022-radeaux-vegetalises-bruxelles.html"
+          name: >-
+            Radeaux végétalisés - Bruxelles
+
+      quantity: 1
 
 
 ---
