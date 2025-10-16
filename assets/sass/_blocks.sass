@@ -226,27 +226,34 @@
                     margin-right: 0
                     width: offset(1)
 
+// projects & post colors
+.block-projects,
+.projects,
+.block-posts,
+.posts
+    .project,
+    .post
+        [class$="-title"] a
+            color: var(--color-text-alt)
+        [class$="-subtitle"]
+            color: var(--color-text)
+        .meta time
+            color: var(--color-accent)
+        [class$="-categories"] a
+            @include link($color-site-dark-red)
+        [class$="-summary"],
+        [class$="-categories"]
+            margin-top: space(4)
+        .media img
+            aspect-ratio: 1.571
+
 // projects
 .block-projects,
 .projects
-    .project
-        .project-title a
-            color: var(--color-text-alt)
-        .project-subtitle
-            color: var(--color-text)
-        .project-meta time
-            color: var(--color-accent)
-        .project-summary,
-        .project-categories
-            margin-top: space(4)
-        .project-categories a
-            @include link($color-site-dark-red)
     &--grid
         .project-content
             flex-direction: column
             gap: $spacing-1
-        .media img
-            aspect-ratio: 1.571
         @include media-breakpoint-down(desktop)
             .project .media
                 margin-left: 0

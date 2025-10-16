@@ -30,3 +30,6 @@ params:
     index:
       taxonomies:
         display: false
+  posts:
+    index:
+      layout: grid
