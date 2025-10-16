@@ -10,6 +10,23 @@ html:not(.has-menu-opened)
             .logo svg path
                 fill: $color-site-red
 
+// icons
+.icon-mail-fill::before
+    @include icon-site("email")
+.icon-instagram-fill::before
+    @include icon-site("instagram")
+.icon-facebook-fill::before
+    @include icon-site("facebook")
+.icon-linkedin-fill::before
+    @include icon-site("linkedin")
+
+// external links with icons
+a[target="_blank"]:not(.icon)::after, 
+.link[target="_blank"]:not(.icon)::after
+    @include icon-site("external")
+    display: inline-block
+    margin-left: space(2)
+
 //header
 header#document-header
     .nav-level-1
@@ -120,6 +137,26 @@ footer#document-footer
     .footer-credit
         &:not(a)
             color: alphaColor(var(--color-background), 0.8)
+
+    .footer-social
+        li
+            a[target="_blank"]::after
+                display: none
+            &::after
+                width: pxToRem(18)
+                @include media-breakpoint-up(desktop)
+                    font-size: 100%
+                    margin-left: space(4) !important
+            &.instagram::after
+                @include icon-site("instagram")
+            &.facebook::after
+                @include icon-site("facebook")
+            &.linkedin::after
+                @include icon-site("linkedin")
+            &.vimeo::after
+                @include icon-site("linkedin")
+            &.youtube::after
+                @include icon-site("youtube")
 
     @include media-breakpoint-down(desktop)
         padding-bottom: space(8)

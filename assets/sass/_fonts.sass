@@ -5,3 +5,18 @@
 @include font-face("Open Sans", OpenSans-Bold, $exts: woff2, $weight: 700)
 @include font-face("Open Sans", OpenSans-Regular, $exts: woff2, $weight: 400)
 @include font-face("Open Sans", OpenSans-Italic, $exts: woff2, $style: italic, $weight: 400)
+
+// icons
+@font-face
+    font-display: block
+    font-family: 'icomoon'
+    font-style: normal
+    font-weight: 400
+    src: url('/assets/fonts/icomoon/icomoon.woff') format("woff")
+
+// mixin for icons
+@mixin icon-site($icon)
+    @include icon
+    font-family: 'icomoon' !important
+    content: map-get($icons-site, $icon) !important
+    margin-left: space()
