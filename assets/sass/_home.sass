@@ -46,7 +46,6 @@
             flex-direction: column
             justify-content: center
             gap: space(11)
-            padding-top: $spacing-6
             figure
                 order: -1
                 width: columns(9)
@@ -83,6 +82,7 @@
 
     @include media-breakpoint-down(desktop)
         .hero
+            padding-top: $spacing-6
             .hero-text
                 margin-bottom: 0
             h1
@@ -95,6 +95,7 @@
 
     @include media-breakpoint-up(md)
         .hero
+            max-height: 100vh
             h1
                 max-width: 23ch
 
