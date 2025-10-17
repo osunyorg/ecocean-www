@@ -29,9 +29,11 @@
     article,
     .card
         overflow: hidden
-        border-radius: $btn-border-radius
+        border-radius: calc(#{$btn-border-radius} / 2)
         [class$="-title"] a:not(:hover)
             color: var(--color-text-alt)
+        @include media-breakpoint-up(desktop)
+            border-radius: $btn-border-radius
 
 // categories
 .block-categories

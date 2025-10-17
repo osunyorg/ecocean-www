@@ -267,3 +267,9 @@ footer#document-footer
         background-color: $color-site-dark-blue
         &, h1
             color: var(--color-background)
+        @include media-breakpoint-down(desktop)
+            &.hero--image-portrait
+                margin-bottom: $spacing-5
+                padding-bottom: $spacing-4
+                figure
+                    margin-bottom: 0 !important

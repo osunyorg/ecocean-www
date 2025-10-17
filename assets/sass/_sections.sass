@@ -121,6 +121,21 @@ html:has(.page__home)
                 color: var(--color-text)
 
 .events__page
+    .hero
+        .dropdown-share
+            button
+                @extend .button--accent
+                &::after
+                    margin-left: $spacing-1
+            .share a:hover
+                color: alphaColor(var(--color-background), 0.9)
     .event-access
         --color-border: var(--color-text)
         --color-text-alt: var(--color-accent)
+        .event-practicals > a.btn
+            --btn-color: var(--color-accent)
+            --btn-background: var(--color-background)
+            --btn-border: 1px solid #{alphaColor(var(--color-accent), 0.4)}
+            --btn-hover-color: var(--btn-color)
+            --btn-hover-background: #{alphaColor(var(--color-accent), 0.1)}
+            --btn-hover-border: var(--btn-border)
