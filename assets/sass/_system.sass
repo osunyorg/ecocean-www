@@ -84,8 +84,9 @@ header#document-header
         .nav-level-2
             li + li
                 margin-top: $spacing-3
-        .dropdown-menu
-            min-height: 80vh
+        li:not(.primary-i18n)
+            .dropdown-menu
+                min-height: 80vh
 
 // footer
 footer#document-footer
