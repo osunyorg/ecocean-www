@@ -2,26 +2,26 @@
 title: Menu principal
 items:
 - title: A propos de nous
-  target: "/equipe/"
+  target: "/fr/equipe/"
   kind: page
   new_tab: false
   children:
   - title: Équipe
-    target: "/equipe/lequipe/"
+    target: "/fr/equipe/lequipe/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/equipe/lequipe"
     file: content/fr/pages/equipe/lequipe/_index.html
   - title: Ressources
-    target: "/equipe/ressources/"
+    target: "/fr/equipe/ressources/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/equipe/ressources"
     file: content/fr/pages/equipe/ressources/_index.html
   - title: Événements
-    target: "/agenda/"
+    target: "/fr/agenda/"
     kind: page
     new_tab: false
     children: []
@@ -92,7 +92,7 @@ items:
     path: "/"
     file: content/fr/_index.html
 - title: Nos réalisations
-  target: "/projets/"
+  target: "/fr/projets/"
   kind: page
   new_tab: false
   children: []

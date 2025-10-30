@@ -64,7 +64,7 @@ items:
     new_tab: false
     children: []
 - title: Nos réalisations
-  target: "/projets/"
+  target: "/fr/projets/"
   kind: page
   new_tab: false
   children: []
