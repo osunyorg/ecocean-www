@@ -96,7 +96,7 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Nos réalisations
+  - title: Projets
     target: "/fr/projets/"
     kind: page
     new_tab: false
