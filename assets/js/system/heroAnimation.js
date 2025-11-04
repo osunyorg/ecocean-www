@@ -38,7 +38,7 @@ window.osuny.HeroAnimation.prototype.getCircle = function () {
       y: Math.random() * 100
     },
     blur = scale * 5 + 10,
-    opacity = (Math.floor(Math.random() * 0.6) + 1);
+    opacity = 0.4 + (Math.random() * 0.2);
 
   circleContainer.style.left = position.x + "%";
   circleContainer.style.top = position.y + "%";
@@ -47,7 +47,8 @@ window.osuny.HeroAnimation.prototype.getCircle = function () {
   circle.style.transform = "scale(" + scale +")";
   circle.style.filter = "blur(" + blur + "px)";
   circle.style.opacity = opacity;
-
+  console.log(opacity)
+  
   circleContainer.appendChild(circle);
 
   return circleContainer;
