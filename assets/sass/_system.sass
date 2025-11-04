@@ -30,8 +30,12 @@ a[target="_blank"]:not(.icon)::after,
 //header
 header#document-header
     .nav-level-1
-        > li:nth-last-child(2) a
+        > li:nth-last-child(3) a
             @extend .button--accent
+            &::after
+                @include icon-site("email")
+                display: inline-block
+                vertical-align: middle
 
     .nav-level-2 > li a
         @include small-arrow-right-hover
