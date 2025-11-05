@@ -69,29 +69,29 @@ html:has(.page__home)
             padding-bottom: 0
 
     &.page-activity
-        .document-content
-            display: flex
-            flex-direction: column
-            .blocks
-                .block:last-child
-                    &.block-call_to_action
-                        --cta-background-color: var(--color-background)
-                        margin-bottom: calc(-1 * var(--block-space-y))
-            > .container
-                background-color: var(--color-background-alt)
-                margin-top: 0
-                order: -1
-                padding-bottom: space(9)
-                padding-top: space(9)
-                @include media-breakpoint-up(desktop)
-                    padding-bottom: $spacing-5
-                    padding-top: $spacing-5
+        .blocks
+            .block:last-child
+                &.block-call_to_action
+                    --cta-background-color: var(--color-background)
+                    margin-bottom: calc(-1 * var(--block-space-y))
+        
         .categories--grid
             @include layout-cards
+            background-color: var(--color-background-alt)
+            margin-top: 0
+            order: -1
+            padding: space(9) var(--grid-gutter) space(9)
+            margin-left: var(--grid-gutter-negative)
+            margin-right: var(--grid-gutter-negative)
+            @include media-breakpoint-up(desktop)
+                padding-bottom: $spacing-5
+                padding-top: $spacing-5
             article
                 overflow: hidden
                 border-radius: $btn-border-radius
-
+        main 
+            padding-bottom: 0
+    
     &.ancestor-activity
         .block-call_to_action--accent_background
             figure img
