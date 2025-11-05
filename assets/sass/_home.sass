@@ -19,11 +19,10 @@
 .page__home
     // header (for animation)
     header#document-header
-        transform: translateY(-100%)
-        opacity: 0
-        @starting-style
+        .primary-menu
             transform: translateY(-100%)
             opacity: 0
+        
     // hero
     .hero
         background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
@@ -72,8 +71,6 @@
                 font-style: normal
                 opacity: 0
                 transition: opacity 0.5s ease
-                @starting-style
-                    opacity: 0
         figure
             pointer-events: none
             transition: opacity 0.3s ease
@@ -98,8 +95,6 @@
                 animation: bounce 2s infinite both
             &:hover::after
                 animation: bounce paused
-        @starting-style
-            opacity: 0
 
     @include media-breakpoint-down(desktop)
         .hero
@@ -132,12 +127,13 @@
     $text-transition-delay: 0.5
     &.is-loaded
         header#document-header
-            transform: translateY(0)
-            opacity: 1
-            transition:
-                property: opacity, transform
-                duration: 0.8s
-                delay: 2.9s
+            .primary-menu
+                transform: translateY(0)
+                opacity: 1
+                transition:
+                    property: opacity, transform
+                    duration: 0.8s
+                    delay: 2.9s
 
         .hero
             figure
