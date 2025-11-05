@@ -25,8 +25,13 @@
         
     // hero
     .hero
+        align-items: center
         background: linear-gradient(180deg, #5894D0 0%, #0E1A43 100%)
+        display: flex
+        flex-direction: column
+        justify-content: center
         padding-bottom: space(8)
+        min-height: 100svh
         &::before
             content: ''
             background: linear-gradient(0deg, #142259 0%, rgba(0, 0, 0, 0) 35%)
@@ -45,6 +50,7 @@
             flex-direction: column
         .container, 
         .content
+            padding-top: 0
             flex: 1
         .content
             align-items: center
@@ -78,9 +84,10 @@
     
     // scroll cta
     .quick-navigation
+        position: absolute !important
         text-align: center
-        justify-content: flex-end
         opacity: 0
+        bottom: space(8)
         a
             @include icon(arrow-right-line, after)
             @include meta
@@ -117,7 +124,6 @@
 
     @include media-breakpoint-up(desktop)
         .hero
-            min-height: 100vh
             .content
                 gap: space(13)
                 figure
