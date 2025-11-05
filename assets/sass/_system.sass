@@ -251,6 +251,24 @@ footer#document-footer
                 margin-left: -7px
                 opacity: 1
 
+// search
+#search
+    .pagefind-ui
+        &__search-input
+            border-color: var(--color-text)
+        &__form::after,
+            color: var(--color-text)
+        &__message
+            color: var(--color-accent)
+        &__result-title
+            @include small-arrow-right-hover
+            @include h3
+            color: var(--color-text-alt)
+            a
+                @include h3
+                text-decoration: none
+                color: inherit
+
 // specifics for project's solutions and home
 .page__home,
 .ancestor-solutions
