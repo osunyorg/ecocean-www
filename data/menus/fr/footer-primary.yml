@@ -64,8 +64,8 @@ items:
     new_tab: false
     children: []
 - title: Nos réalisations
-  target: ''
-  kind: blank
+  target: "/"
+  kind: url
   new_tab: false
   children:
   - title: Nos projets
@@ -82,6 +82,4 @@ items:
     children: []
     path: "/pages/innovation"
     file: content/fr/pages/innovation/_index.html
-  path: "/projects"
-  file: content/fr/projects/_index.html
 
