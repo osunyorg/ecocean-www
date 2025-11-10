@@ -67,7 +67,21 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: Nos projets
+    target: "/fr/projets/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/projects"
+    file: content/fr/projects/_index.html
+  - title: Innovation
+    target: "/fr/innovation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/innovation"
+    file: content/fr/pages/innovation/_index.html
   path: "/projects"
   file: content/fr/projects/_index.html
 
