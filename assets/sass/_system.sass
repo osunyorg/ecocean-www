@@ -123,11 +123,11 @@ footer#document-footer
         a
             @include signature
             @include small-arrow-right-hover
-    .footer-menu
-        > li > a
+        > li > *
             @include h3
             + *
                 margin-top: space(4)
+    
     .footer-site
         @include meta
         .footer-cta 
@@ -139,6 +139,7 @@ footer#document-footer
         > div 
             address, a
                 color: alphaColor(var(--color-background), 0.8)
+    
     .footer-credit
         &:not(a)
             color: alphaColor(var(--color-background), 0.8)
