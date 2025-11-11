@@ -64,8 +64,8 @@ items:
     new_tab: false
     children: []
 - title: Nos réalisations
-  target: "/"
-  kind: url
+  target: ''
+  kind: blank
   new_tab: false
   children:
   - title: Nos projets
