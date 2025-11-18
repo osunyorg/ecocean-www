@@ -84,8 +84,13 @@
                 margin-bottom: space(8)
             .description p
                 @include lead-sidebar
+
     &--no_background
         --cta-background-color: #{$color-background-alt}
+    
+    @include media-breakpoint-up(desktop)
+        .call_to_action--with-image > div
+            align-self: center
 
 // key figures
 .block-key_figures
