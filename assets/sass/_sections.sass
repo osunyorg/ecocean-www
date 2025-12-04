@@ -120,6 +120,10 @@ html:has(.page__home)
         &--agenda
             .events-date-title
                 color: var(--color-text)
+            
+            @include media-breakpoint-up(desktop)
+                .events-date
+                    padding-bottom: 0
 
 .events__page
     .hero
