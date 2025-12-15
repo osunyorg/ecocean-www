@@ -60,37 +60,35 @@ items:
   new_tab: false
   children:
   - title: Aménageur
-    target: "/projets/activite/amenageur/"
+    target: https://www.ecocean.osuny.site/fr/projets/activite/amenageur/
     kind: url
     new_tab: false
     children: []
   - title: Bureau d'étude et ONG
-    target: "/projets/activite/bureau-detude-et-ong/"
+    target: https://www.ecocean.osuny.site/fr/projets/activite/bureau-detude-et-ong/
     kind: url
     new_tab: false
     children: []
   - title: Collectivité
-    target: https://www.ecocean.osuny.site/projets/activite/collectivite/
+    target: https://www.ecocean.osuny.site/fr/projets/activite/collectivite/
     kind: url
     new_tab: false
     children: []
   - title: Énergéticien
-    target: https://www.ecocean.osuny.site/projets/activite/energeticien/
+    target: https://www.ecocean.osuny.site/fr/projets/activite/energeticien/
     kind: url
     new_tab: false
     children: []
   - title: Port de commerce
-    target: https://www.ecocean.osuny.site/projets/activite/port-de-commerce/
+    target: https://www.ecocean.osuny.site/fr/projets/activite/port-de-commerce/
     kind: url
     new_tab: false
     children: []
   - title: Port de plaisance
-    target: https://www.ecocean.osuny.site/projets/activite/port-de-plaisance/
+    target: https://www.ecocean.osuny.site/fr/projets/activite/port-de-plaisance/
     kind: url
     new_tab: false
     children: []
-    path: "/"
-    file: content/fr/_index.html
 - title: Nos réalisations
   target: ''
   kind: blank
