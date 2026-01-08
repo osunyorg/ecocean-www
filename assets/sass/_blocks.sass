@@ -211,11 +211,12 @@
             padding-top: $spacing-5
 
     @include in-page-without-sidebar
-        .testimonial,
-        .slider-controls
-            // width: columns(8)
+        .testimonial
             padding-left: offset(2)
             padding-right: offset(2)
+        .slider-controls
+            margin-left: offset(2)
+            margin-right: offset(2)
         figure.with-picture
             padding-top: calc(#{offset(1)} + #{space(8)})
             figcaption

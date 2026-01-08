@@ -18,7 +18,7 @@
     
 .page__home
     // header (for animation)
-    header#document-header
+    header#document-header:not(.is-sticky)
         .primary-menu
             transform: translateY(-100%)
             opacity: 0
@@ -133,7 +133,7 @@
     // loaded animation : h1 and header
     $text-transition-delay: 0.5
     &.is-loaded
-        header#document-header
+        header#document-header:not(.is-sticky)
             .primary-menu
                 transform: translateY(0)
                 opacity: 1

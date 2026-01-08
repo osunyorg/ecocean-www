@@ -47,7 +47,6 @@ window.osuny.HeroAnimation.prototype.getCircle = function () {
   circle.style.transform = "scale(" + scale +")";
   circle.style.filter = "blur(" + blur + "px)";
   circle.style.opacity = opacity;
-  console.log(opacity)
   
   circleContainer.appendChild(circle);
 
