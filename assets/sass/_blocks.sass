@@ -44,28 +44,29 @@
             .media
                 @include media-solutions
 
-    &--cards
-        background: var(--color-background-alt)
-        padding-bottom: space(9)
-        padding-top: space(9) !important
-        .categories
-            min-height: unset
-        .block-title
-            @include h5
-        .category-item
+.block-pages--cards
+    background: var(--color-background-alt)
+    padding-bottom: space(9)
+    padding-top: space(9) !important
+    .block-title
+        @include h5
+    .pages
+        min-height: unset
+        article
             background-color: $layout-cards-item-background
-            .category-content
+            .page-content
                 display: flex
                 flex: 1
                 flex-direction: column
                 .more
                     padding-top: $spacing-2
                     margin-top: auto
-            .media img
-                aspect-ratio: 1.400
-        @include media-breakpoint-up(desktop)
-            padding-bottom: $spacing-5
-            padding-top: $spacing-5 !important
+            .media
+                @include media-solutions
+                
+    @include media-breakpoint-up(desktop)
+        padding-bottom: $spacing-5
+        padding-top: $spacing-5 !important
 
 // timeline
 .block-timeline
@@ -189,7 +190,7 @@
                         @include h3
 
 // testimonials
-.block-testimonials
+.block-testimonials:has(.testimonials--carousel)
     figure
         figcaption
             margin-top: space(8) !important
@@ -226,7 +227,7 @@
                     margin-left: 0
                     margin-right: 0
                     width: offset(1)
-
+                    
 // projects & post colors
 .block-projects,
 .projects,
