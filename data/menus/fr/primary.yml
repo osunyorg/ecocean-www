@@ -30,8 +30,8 @@ items:
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
-  target: ''
-  kind: blank
+  target: "/fr/solutions/"
+  kind: page
   new_tab: false
   children:
   - title: Biohut®
@@ -62,9 +62,11 @@ items:
     children: []
     path: "/pages/solutions/sensibilisation"
     file: content/fr/pages/solutions/sensibilisation/_index.html
+  path: "/pages/solutions"
+  file: content/fr/pages/solutions/_index.html
 - title: Votre activité
-  target: ''
-  kind: blank
+  target: "/fr/activites/"
+  kind: page
   new_tab: false
   children:
   - title: Aménageur
@@ -109,6 +111,8 @@ items:
     children: []
     path: "/pages/activites/port-de-plaisance"
     file: content/fr/pages/activites/port-de-plaisance/_index.html
+  path: "/pages/activites"
+  file: content/fr/pages/activites/_index.html
 - title: Nos réalisations
   target: ''
   kind: blank
