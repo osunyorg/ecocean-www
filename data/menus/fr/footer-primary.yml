@@ -104,4 +104,9 @@ items:
     children: []
     path: "/pages/innovation"
     file: content/fr/pages/innovation/_index.html
+  - title: Cartographie (accès restreint)
+    target: cartographie.ecocean.fr
+    kind: url
+    new_tab: true
+    children: []
 
