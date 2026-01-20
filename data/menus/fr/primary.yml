@@ -34,7 +34,7 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Biohut
+  - title: Biohut®
     target: "/fr/solutions/biohut/"
     kind: page
     new_tab: false
