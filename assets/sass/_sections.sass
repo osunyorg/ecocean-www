@@ -19,23 +19,23 @@ html:has(.page__home)
             color: var(--color-text)
             margin-top: $spacing-1
 
-// projects
-.projects__section
-    .projects--grid
-        @include alternate(".project")
-        display: block !important
+// // projects
+// .projects__section
+//     .projects--grid
+//         @include alternate(".project")
+//         display: block !important
 
-        @include media-breakpoint-down(desktop)
-            .project + .project
-                margin-top: $spacing-4
+//         @include media-breakpoint-down(desktop)
+//             .project + .project
+//                 margin-top: $spacing-4
 
-        @include media-breakpoint-up(desktop)
-            .project
-                width: columns(7)
-                + .project
-                    margin-top: $spacing-6
-                &:nth-child(odd)
-                    margin-left: auto
+//         @include media-breakpoint-up(desktop)
+//             .project
+//                 width: columns(7)
+//                 + .project
+//                     margin-top: $spacing-6
+//                 &:nth-child(odd)
+//                     margin-left: auto
 
 .projects__page
     .hero

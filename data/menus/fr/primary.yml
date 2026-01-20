@@ -30,65 +30,89 @@ items:
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
-  target: ''
-  kind: blank
+  target: "/fr/solutions/"
+  kind: page
   new_tab: false
   children:
-  - title: Biohut
-    target: "/projets/solution/biohut/"
-    kind: url
+  - title: Biohut®
+    target: "/fr/solutions/biohut/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/solutions/biohut"
+    file: content/fr/pages/solutions/biohut/_index.html
   - title: BioRestore
-    target: "/projets/solution/biorestore/"
-    kind: url
+    target: "/fr/solutions/biorestore/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/solutions/biorestore"
+    file: content/fr/pages/solutions/biorestore/_index.html
   - title: Radeaux végétalisés
-    target: "/projets/solution/radeaux-vegetalises/"
-    kind: url
+    target: "/fr/solutions/radeaux-vegetalises/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/solutions/radeaux-vegetalises"
+    file: content/fr/pages/solutions/radeaux-vegetalises/_index.html
   - title: Sensibilisation
-    target: "/projets/solution/sensibilisation/"
-    kind: url
+    target: "/fr/solutions/sensibilisation/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/solutions/sensibilisation"
+    file: content/fr/pages/solutions/sensibilisation/_index.html
+  path: "/pages/solutions"
+  file: content/fr/pages/solutions/_index.html
 - title: Votre activité
-  target: ''
-  kind: blank
+  target: "/fr/activites/"
+  kind: page
   new_tab: false
   children:
   - title: Aménageur
-    target: https://www.ecocean.osuny.site/fr/projets/activite/amenageur/
-    kind: url
+    target: "/fr/activites/amenageur/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/amenageur"
+    file: content/fr/pages/activites/amenageur/_index.html
   - title: Bureau d'étude et ONG
-    target: https://www.ecocean.osuny.site/fr/projets/activite/bureau-detude-et-ong/
-    kind: url
+    target: "/fr/activites/bureaux-detude-et-ong/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/bureaux-detude-et-ong"
+    file: content/fr/pages/activites/bureaux-detude-et-ong/_index.html
   - title: Collectivité
-    target: https://www.ecocean.osuny.site/fr/projets/activite/collectivite/
-    kind: url
+    target: "/fr/activites/collectivite/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/collectivite"
+    file: content/fr/pages/activites/collectivite/_index.html
   - title: Énergéticien
-    target: https://www.ecocean.osuny.site/fr/projets/activite/energeticien/
-    kind: url
+    target: "/fr/activites/energeticien/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/energeticien"
+    file: content/fr/pages/activites/energeticien/_index.html
   - title: Port de commerce
-    target: https://www.ecocean.osuny.site/fr/projets/activite/port-de-commerce/
-    kind: url
+    target: "/fr/activites/port-de-commerce/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/port-de-commerce"
+    file: content/fr/pages/activites/port-de-commerce/_index.html
   - title: Port de plaisance
-    target: https://www.ecocean.osuny.site/fr/projets/activite/port-de-plaisance/
-    kind: url
+    target: "/fr/activites/port-de-plaisance/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/activites/port-de-plaisance"
+    file: content/fr/pages/activites/port-de-plaisance/_index.html
+  path: "/pages/activites"
+  file: content/fr/pages/activites/_index.html
 - title: Nos réalisations
   target: ''
   kind: blank
