@@ -1,11 +1,18 @@
 ---
 title: Menu principal
 items:
-- title: A propos de nous
+- title: À propos de nous
   target: "/fr/equipe/"
   kind: page
   new_tab: false
   children:
+  - title: L'entreprise
+    target: "/fr/equipe/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/persons"
+    file: content/fr/persons/_index.html
   - title: Équipe
     target: "/fr/equipe/lequipe/"
     kind: page
