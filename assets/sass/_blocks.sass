@@ -34,7 +34,8 @@
             border-radius: $btn-border-radius
 
 // categories
-.block-categories
+.block-categories,
+.block-pages
     [class$="-title"]
         @include h3
         a
@@ -80,6 +81,9 @@
 
 // cta | call to action
 .block-call_to_action
+    &--no_background
+        --cta-background-color: #{$color-background-alt}
+
     .call_to_action
         .top
             .block-title
@@ -87,12 +91,23 @@
             .description p
                 @include lead-sidebar
 
-    &--no_background
-        --cta-background-color: #{$color-background-alt}
+        figure img
+            border-radius: 50%
     
     @include media-breakpoint-up(desktop)
         .call_to_action--with-image > div
             align-self: center
+
+    @include in-page-with-sidebar
+        .call_to_action > div
+            border-bottom-left-radius: $btn-border-radius
+            border-top-left-radius: $btn-border-radius
+            padding-top: $spacing-6
+
+        &--accent_background
+            .call_to_action--with-image
+                figure picture
+                    width: offset(2)
 
 // key figures
 .block-key_figures

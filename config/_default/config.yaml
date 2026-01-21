@@ -35,5 +35,6 @@ params:
       layout: grid
   projects:
     index:
+      layout: list
       options:
         year: true
