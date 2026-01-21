@@ -44,29 +44,32 @@
             .media
                 @include media-solutions
 
-.block-pages--cards
-    background: var(--color-background-alt)
-    padding-bottom: space(9)
-    padding-top: space(9) !important
-    .block-title
-        @include h5
-    .pages
-        min-height: unset
-        article
-            background-color: $layout-cards-item-background
-            .page-content
-                display: flex
-                flex: 1
-                flex-direction: column
-                .more
-                    padding-top: $spacing-2
-                    margin-top: auto
-            .media
-                @include media-solutions
-                
-    @include media-breakpoint-up(desktop)
-        padding-bottom: $spacing-5
-        padding-top: $spacing-5 !important
+.block-pages
+    .page
+        .media picture.is-png
+            @include media-solutions
+    
+    &--cards
+        background: var(--color-background-alt)
+        padding-bottom: space(9)
+        padding-top: space(9) !important
+        .block-title
+            @include h5
+        .pages
+            min-height: unset
+            article
+                background-color: $layout-cards-item-background
+                .page-content
+                    display: flex
+                    flex: 1
+                    flex-direction: column
+                    .more
+                        padding-top: $spacing-2
+                        margin-top: auto
+                    
+        @include media-breakpoint-up(desktop)
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5 !important
 
 // timeline
 .block-timeline
