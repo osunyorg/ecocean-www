@@ -27,13 +27,6 @@ items:
     children: []
     path: "/pages/equipe/ressources"
     file: content/fr/pages/equipe/ressources/_index.html
-  - title: Événements
-    target: "/fr/agenda/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/events"
-    file: content/fr/events/_index.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
@@ -120,27 +113,13 @@ items:
     file: content/fr/pages/activites/port-de-plaisance/_index.html
   path: "/pages/activites"
   file: content/fr/pages/activites/_index.html
-- title: Nos réalisations
-  target: ''
-  kind: blank
+- title: Innovation
+  target: "/fr/innovation/"
+  kind: page
   new_tab: false
-  children:
-  - title: Projets
-    target: "/fr/projets/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/projects"
-    file: content/fr/projects/_index.html
-  - title: Innovation
-    target: "/fr/innovation/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/innovation"
-    file: content/fr/pages/innovation/_index.html
-  path: "/projects"
-  file: content/fr/projects/_index.html
+  children: []
+  path: "/pages/innovation"
+  file: content/fr/pages/innovation/_index.html
 - title: Nous contacter
   target: mailto:contact@ecocean.fr
   kind: url
