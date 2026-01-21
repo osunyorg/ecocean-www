@@ -29,4 +29,9 @@ items:
   children: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
+- title: Cartographie (accès restreint)
+  target: https://cartographie.ecocean.fr
+  kind: url
+  new_tab: true
+  children: []
 
