@@ -33,3 +33,7 @@ params:
   posts:
     index:
       layout: grid
+  projects:
+    index:
+      options:
+        year: true
