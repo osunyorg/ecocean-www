@@ -5,7 +5,21 @@ items:
   target: "/fr/equipe/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: L'équipe
+    target: "/fr/equipe/lequipe/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/equipe/lequipe"
+    file: content/fr/pages/equipe/lequipe/_index.html
+  - title: Ressources
+    target: "/fr/equipe/ressources/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/equipe/ressources"
+    file: content/fr/pages/equipe/ressources/_index.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
