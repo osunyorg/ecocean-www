@@ -27,13 +27,16 @@
                 margin-bottom: $spacing-5
 
 // layout cards
-[class*="--cards"]
+.block[class*="--cards"]
     article,
     .card
         overflow: hidden
         border-radius: calc(#{$btn-border-radius} / 2)
         [class$="-title"] a:not(:hover)
             color: var(--color-text-alt)
+        .media picture.is-png
+            border-bottom-left-radius: 0
+            border-bottom-right-radius: 0
         @include media-breakpoint-up(desktop)
             border-radius: $btn-border-radius
 
