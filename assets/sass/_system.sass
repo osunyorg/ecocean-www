@@ -81,16 +81,20 @@ header#document-header
         .search-button
             span:first-of-type
                 display: none
+        li:not(.primary-i18n)
+            .dropdown-menu
+                min-height: 80svh
+        
         .nav-level-1
             > li:nth-last-child(2)
                 margin-left: space(6)
                 margin-right: space(8)
+            > li:nth-last-child(3)
+                margin-left: $spacing-2
+        
         .nav-level-2
             li + li
                 margin-top: $spacing-3
-        li:not(.primary-i18n)
-            .dropdown-menu
-                min-height: 80svh
 
 // footer
 footer#document-footer
