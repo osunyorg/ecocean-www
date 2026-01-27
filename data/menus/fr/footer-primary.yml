@@ -1,6 +1,13 @@
 ---
 title: Footer
 items:
+- title: À propos de nous
+  target: "/fr/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 - title: Nos solutions
   target: "/fr/solutions/"
   kind: page
@@ -85,23 +92,4 @@ items:
     file: content/fr/pages/activites/port-de-plaisance/_index.html
   path: "/pages/activites"
   file: content/fr/pages/activites/_index.html
-- title: Nos réalisations
-  target: ''
-  kind: blank
-  new_tab: false
-  children:
-  - title: Nos projets
-    target: "/fr/projets/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/projects"
-    file: content/fr/projects/_index.html
-  - title: Innovation
-    target: "/fr/innovation/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/innovation"
-    file: content/fr/pages/innovation/_index.html
 
