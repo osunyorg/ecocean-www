@@ -7,12 +7,12 @@ items:
   new_tab: false
   children:
   - title: L'entreprise
-    target: "/fr/"
+    target: "/fr/lentreprise/"
     kind: page
     new_tab: false
     children: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
+    path: "/pages/lentreprise"
+    file: content/fr/pages/lentreprise/_index.html
   - title: L'équipe
     target: "/fr/lequipe/"
     kind: page
@@ -20,7 +20,7 @@ items:
     children: []
     path: "/pages/lequipe"
     file: content/fr/pages/lequipe/_index.html
-  - title: Ressources
+  - title: Nos ressources
     target: "/fr/ressources/"
     kind: page
     new_tab: false

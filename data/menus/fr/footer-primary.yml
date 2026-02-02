@@ -20,7 +20,7 @@ items:
     children: []
     path: "/pages/lequipe"
     file: content/fr/pages/lequipe/_index.html
-  - title: Ressources
+  - title: Nos ressources
     target: "/fr/ressources/"
     kind: page
     new_tab: false
