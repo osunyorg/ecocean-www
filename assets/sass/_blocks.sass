@@ -18,13 +18,19 @@
                     @include lead-sidebar
                     flex: 1
                     margin-left: 0
-    &:first-child
-        &[class*="--cards"]
+    &[class*="--cards"]
+        &:first-child
             margin-top: 0 !important
+        &:last-child
+            margin-bottom: -$spacing-5 !important
     @include media-breakpoint-up(desktop)
         &:not(.block-call_to_action)
             .top
                 margin-bottom: $spacing-5
+        
+        &.block-call_to_action--no_background
+            &:last-child
+                margin-bottom: -$spacing-5 !important
 
 // layout cards
 .block[class*="--cards"]
