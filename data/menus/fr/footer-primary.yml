@@ -6,6 +6,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: L'entreprise
+    target: "/fr/equipe/lentreprise/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/equipe/lentreprise"
+    file: content/fr/pages/equipe/lentreprise/_index.html
   - title: L'équipe
     target: "/fr/equipe/lequipe/"
     kind: page
@@ -55,6 +62,13 @@ items:
     children: []
     path: "/pages/solutions/sensibilisation"
     file: content/fr/pages/solutions/sensibilisation/_index.html
+  - title: Diagnostic
+    target: "/fr/solutions/diagnostic/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/solutions/diagnostic"
+    file: content/fr/pages/solutions/diagnostic/_index.html
   path: "/pages/solutions"
   file: content/fr/pages/solutions/_index.html
 - title: Votre activité
@@ -69,7 +83,7 @@ items:
     children: []
     path: "/pages/activites/amenageur"
     file: content/fr/pages/activites/amenageur/_index.html
-  - title: Bureau d'étude et ONG
+  - title: Prescipteur
     target: "/fr/activites/prescripteur/"
     kind: page
     new_tab: false
