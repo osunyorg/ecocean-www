@@ -77,12 +77,12 @@ items:
     path: "/pages/activites/amenageur"
     file: content/fr/pages/activites/amenageur/_index.html
   - title: Bureau d'étude et ONG
-    target: "/fr/activites/bureaux-detude-et-ong/"
+    target: "/fr/activites/prescripteur/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/activites/bureaux-detude-et-ong"
-    file: content/fr/pages/activites/bureaux-detude-et-ong/_index.html
+    path: "/pages/activites/prescripteur"
+    file: content/fr/pages/activites/prescripteur/_index.html
   - title: Collectivité
     target: "/fr/activites/collectivite/"
     kind: page
