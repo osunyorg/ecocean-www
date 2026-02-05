@@ -173,6 +173,9 @@
     pointer-events: none
     user-select: none
     z-index: 0
+    &:not(.is-animated)
+        > div
+            animation-play-state: paused !important
     > div
         animation: rotate 35s infinite forwards linear
         width: 100px

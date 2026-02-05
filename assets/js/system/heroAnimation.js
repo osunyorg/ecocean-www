@@ -6,6 +6,8 @@ window.osuny.HeroAnimation = function (container) {
   };
 
   this.container = container;
+
+  this.throttleId = null;
   this.init();
 }
 
@@ -15,6 +17,12 @@ window.osuny.HeroAnimation.prototype.init = function () {
   this.element.classList.add('animation-container');
   this.container.appendChild(this.element);
   this.addCircles();
+
+  window.addEventListener('scroll', function () {
+    this.pauseOnScroll();
+  }.bind(this));
+
+  this.play();
 };
 
 window.osuny.HeroAnimation.prototype.addCircles = function () {
@@ -28,17 +36,17 @@ window.osuny.HeroAnimation.prototype.addCircles = function () {
 window.osuny.HeroAnimation.prototype.getCircle = function () {
   var circleContainer = document.createElement('div'),
       circle = document.createElement('div'),
-    scale = (Math.floor(Math.random() * 9) + 7) - 1,
-    axis = {
-      x: Math.random() - 0.5,
-      y: Math.random() - 0.5
-    },
-    position = {
-      x: Math.random() * 100,
-      y: Math.random() * 100
-    },
-    blur = scale * 5 + 10,
-    opacity = 0.4 + (Math.random() * 0.2);
+      scale = (Math.floor(Math.random() * 9) + 7) - 1,
+      axis = {
+        x: Math.random() - 0.5,
+        y: Math.random() - 0.5
+      },
+      position = {
+        x: Math.random() * 100,
+        y: Math.random() * 100
+      },
+      blur = scale * 5 + 10,
+      opacity = 0.4 + (Math.random() * 0.2);
 
   circleContainer.style.left = position.x + "%";
   circleContainer.style.top = position.y + "%";
@@ -52,6 +60,25 @@ window.osuny.HeroAnimation.prototype.getCircle = function () {
 
   return circleContainer;
 };
+
+window.osuny.HeroAnimation.prototype.pauseOnScroll = function () {
+  this.pause();
+
+  clearTimeout(this.throttleId);
+  this.throttleId = setTimeout(function () {
+      this.play();
+  }.bind(this), 500);
+};
+
+window.osuny.HeroAnimation.prototype.play = function () {
+  this.element.classList.add('is-animated');
+};
+
+window.osuny.HeroAnimation.prototype.pause = function () {
+  this.element.classList.remove('is-animated');
+};
+
+
 
 if (document.body.classList.contains('page__home')) {
   var container = document.querySelector('.page__home .hero');
