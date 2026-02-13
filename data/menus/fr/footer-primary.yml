@@ -2,122 +2,170 @@
 title: Footer
 items:
 - title: À propos de nous
+  slug: a-propos-de-nous
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: L'entreprise
+    slug: l-entreprise
     target: "/fr/lentreprise/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lentreprise"
     file: content/fr/pages/lentreprise/_index.html
   - title: L'équipe
+    slug: l-equipe
     target: "/fr/lequipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/lequipe"
     file: content/fr/pages/lequipe/_index.html
   - title: Nos ressources
+    slug: nos-ressources
     target: "/fr/ressources/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/ressources"
     file: content/fr/pages/ressources/_index.html
+  descendants_targets:
+  - "/fr/lentreprise/"
+  - "/fr/lequipe/"
+  - "/fr/ressources/"
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Nos solutions
+  slug: nos-solutions
   target: "/fr/solutions/"
   kind: page
   new_tab: false
   children:
   - title: Biohut®
+    slug: biohut
     target: "/fr/solutions/biohut/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/solutions/biohut"
     file: content/fr/pages/solutions/biohut/_index.html
   - title: BioRestore
+    slug: biorestore
     target: "/fr/solutions/biorestore/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/solutions/biorestore"
     file: content/fr/pages/solutions/biorestore/_index.html
   - title: Radeaux végétalisés
+    slug: radeaux-vegetalises
     target: "/fr/solutions/radeaux-vegetalises/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/solutions/radeaux-vegetalises"
     file: content/fr/pages/solutions/radeaux-vegetalises/_index.html
   - title: Sensibilisation
+    slug: sensibilisation
     target: "/fr/solutions/sensibilisation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/solutions/sensibilisation"
     file: content/fr/pages/solutions/sensibilisation/_index.html
   - title: Diagnostic
+    slug: diagnostic
     target: "/fr/solutions/diagnostic/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/solutions/diagnostic"
     file: content/fr/pages/solutions/diagnostic/_index.html
+  descendants_targets:
+  - "/fr/solutions/biohut/"
+  - "/fr/solutions/biorestore/"
+  - "/fr/solutions/diagnostic/"
+  - "/fr/solutions/radeaux-vegetalises/"
+  - "/fr/solutions/sensibilisation/"
   path: "/pages/solutions"
   file: content/fr/pages/solutions/_index.html
 - title: Votre activité
+  slug: votre-activite
   target: "/fr/activites/"
   kind: page
   new_tab: false
   children:
   - title: Aménageur
+    slug: amenageur
     target: "/fr/activites/amenageur/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/amenageur"
     file: content/fr/pages/activites/amenageur/_index.html
   - title: Collectivité
+    slug: collectivite
     target: "/fr/activites/collectivite/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/collectivite"
     file: content/fr/pages/activites/collectivite/_index.html
   - title: Énergéticien
+    slug: energeticien
     target: "/fr/activites/energeticien/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/energeticien"
     file: content/fr/pages/activites/energeticien/_index.html
   - title: Port de commerce
+    slug: port-de-commerce
     target: "/fr/activites/port-de-commerce/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/port-de-commerce"
     file: content/fr/pages/activites/port-de-commerce/_index.html
   - title: Port de plaisance
+    slug: port-de-plaisance
     target: "/fr/activites/port-de-plaisance/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/port-de-plaisance"
     file: content/fr/pages/activites/port-de-plaisance/_index.html
   - title: Prescipteur
+    slug: prescipteur
     target: "/fr/activites/prescripteur/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/activites/prescripteur"
     file: content/fr/pages/activites/prescripteur/_index.html
+  descendants_targets:
+  - "/fr/activites/amenageur/"
+  - "/fr/activites/collectivite/"
+  - "/fr/activites/energeticien/"
+  - "/fr/activites/port-de-commerce/"
+  - "/fr/activites/port-de-plaisance/"
+  - "/fr/activites/prescripteur/"
   path: "/pages/activites"
   file: content/fr/pages/activites/_index.html
 

@@ -2,8 +2,10 @@
 title: Footer contact
 items:
 - title: Nous contacter
+  slug: nous-contacter
   target: mailto:contact@ecocean.fr
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
