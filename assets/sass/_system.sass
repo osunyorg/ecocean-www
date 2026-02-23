@@ -1,3 +1,6 @@
+\:root
+    --color-header-background: var(--color-background)
+
 // global
 // red logo on all pages but home
 html:not(.has-menu-opened)
@@ -295,6 +298,7 @@ footer#document-footer
 
 // projects categories ('solutions')
 .ancestor-solutions
+    --color-header-background: #{$color-site-dark-blue}
     .hero
         background-color: $color-site-dark-blue
         &, h1
