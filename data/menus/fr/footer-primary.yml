@@ -150,8 +150,8 @@ items:
     descendants_targets: []
     path: "/pages/activites/port-de-plaisance"
     file: content/fr/pages/activites/port-de-plaisance/_index.html
-  - title: Prescipteur
-    slug: prescipteur
+  - title: Prescripteur
+    slug: prescripteur
     target: "/fr/activites/prescripteur/"
     kind: page
     new_tab: false
