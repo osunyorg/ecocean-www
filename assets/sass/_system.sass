@@ -214,10 +214,13 @@ footer#document-footer
         .logo
             order: 3
         .footer-site
+            align-self: baseline
             width: columns(4)
         .footer-menu--secondary
+            align-self: baseline
             @include grid(2, desktop)
             width: columns(8)
+            
         .footer-site,
         .footer-social
             text-align: left
@@ -227,8 +230,11 @@ footer#document-footer
             line-height: 1
             text-align: right
             width: columns(6)
-        .footer-menu > li > a + *
-            margin-top: $spacing-3
+        .footer-menu > li 
+            + li
+                margin-top: 0
+            > a + *
+                margin-top: $spacing-3
         .footer-social li
             justify-content: flex-start
             margin-right: auto
