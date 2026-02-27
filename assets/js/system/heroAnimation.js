@@ -1,4 +1,5 @@
 window.osuny = window.osuny || {};
+import { isMobile } from '../utils/breakpoints';
 
 window.osuny.HeroAnimation = function (container) {
   this.options = { 
@@ -62,6 +63,10 @@ window.osuny.HeroAnimation.prototype.getCircle = function () {
 };
 
 window.osuny.HeroAnimation.prototype.pauseOnScroll = function () {
+  if (isMobile()) {
+    return;
+  }
+
   this.pause();
 
   clearTimeout(this.throttleId);
