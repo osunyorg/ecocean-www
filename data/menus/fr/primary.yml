@@ -65,7 +65,7 @@ items:
     descendants_targets: []
     path: "/pages/solutions/biohut"
     file: content/fr/pages/solutions/biohut/_index.html
-  - title: BioRestore
+  - title: BioRestore®
     slug: biorestore
     target: "/fr/solutions/biorestore/"
     kind: page
