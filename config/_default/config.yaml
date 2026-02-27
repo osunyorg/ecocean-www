@@ -1,6 +1,7 @@
 theme: osuny
 _merge: deep
 params:
+  plausible: ecocean.fr
   summary:
     position: hero
   search:
