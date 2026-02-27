@@ -1,5 +1,5 @@
 window.osuny = window.osuny || {};
-import { isMobile } from '../utils/breakpoints';
+import { isMobile } from '../theme/utils/breakpoints';
 
 window.osuny.HeroAnimation = function (container) {
   this.options = { 
