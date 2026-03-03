@@ -28,8 +28,9 @@
         &:not(.block-call_to_action)
             .top
                 margin-bottom: $spacing-5
-        
-        &.block-call_to_action--no_background
+    @include in-page-without-sidebar
+        &.block-call_to_action--no_background,
+        &.block-call_to_action--accent_background
             &:last-child
                 margin-bottom: -$spacing-5 !important
 
