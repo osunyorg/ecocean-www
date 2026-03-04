@@ -3,8 +3,8 @@ title: Menu principal
 items:
 - title: À propos de nous
   slug: a-propos-de-nous
-  target: ''
-  kind: blank
+  target: "/fr/a-propos-de-nous/"
+  kind: page
   new_tab: false
   children:
   - title: L'entreprise
@@ -48,8 +48,8 @@ items:
   - "/fr/a-propos-de-nous/lequipe/"
   - "/fr/a-propos-de-nous/nos-partenaires-et-reseaux/"
   - "/fr/a-propos-de-nous/ressources/"
-  path: "/persons"
-  file: content/fr/persons/_index.html
+  path: "/pages/a-propos-de-nous"
+  file: content/fr/pages/a-propos-de-nous/_index.html
 - title: Nos solutions
   slug: nos-solutions
   target: "/fr/solutions/"
