@@ -1,0 +1,47 @@
+---
+title: Menu principal
+items:
+- title: About us
+  slug: about-us
+  target: "/en/about-us/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/about-us"
+  file: content/en/pages/about-us/_index.html
+- title: Our solutions
+  slug: our-solutions
+  target: "/en/solutions/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/solutions"
+  file: content/en/pages/solutions/_index.html
+- title: Your sector
+  slug: your-sector
+  target: "/en/your-sector/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/your-sector"
+  file: content/en/pages/your-sector/_index.html
+- title: Innovation
+  slug: innovation
+  target: "/en/innovation/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/innovation"
+  file: content/en/pages/innovation/_index.html
+- title: Contact us
+  slug: contact-us
+  target: mailto:contact@ecocean.fr
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
+
