@@ -1,0 +1,9 @@
+home:
+  hero:
+    cta: Scroll down
+commons:
+  credit: A low impact website crafted by <a href="https://ctrls.studio/" title="Ctrl S - lien externe" target="_blank" rel="noreferrer">Ctrl S</a> with <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
+  footer:
+    secondary_menu: 
+      legals: About
+      socials: Follow us
