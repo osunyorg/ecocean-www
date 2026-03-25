@@ -25,11 +25,6 @@ en:
             ecocean-sas
           value: >-
             https://www.linkedin.com/company/ecocean-sas/
-        x:
-          label: >-
-            EcoceanPCC?lang=fr
-          value: >-
-            https://x.com/EcoceanPCC?lang=fr
         youtube:
           label: >-
             channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
@@ -77,6 +72,11 @@ fr:
             ecocean-sas
           value: >-
             https://www.linkedin.com/company/ecocean-sas/
+        vimeo:
+          label: >-
+            ecocean
+          value: >-
+            https://vimeo.com/ecocean
         youtube:
           label: >-
             channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
