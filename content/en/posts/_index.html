@@ -6,24 +6,26 @@ breadcrumb_title: >-
 
 
 
-url: "/en/posts/"
+url: "/en/"
 slug: "posts"
+aliases:
+  - /../en/posts/
 date: 2025-06-30T14:21:14+02:00
-lastmod: 2025-10-30T11:28:12+01:00
+lastmod: 2026-03-25T16:14:02+01:00
 meta:
   hugo:
-    permalink: "/en/posts/"
+    permalink: "/en/"
     path: "/posts"
     file: "content/en/posts/_index.html"
     slug: "posts"
   dates:
     created_at: 2025-06-30T14:21:14+02:00
-    updated_at: 2025-10-30T11:28:12+01:00
+    updated_at: 2026-03-25T16:14:02+01:00
     published_at: 2025-06-30T14:21:14+02:00
 search:
   id: "adf3645b-78a1-46f0-8a7e-deb997791710"
   about_id: "7e2d59df-c518-456b-92c0-361f2d0772c0"
-  url: "/en/posts/"
+  url: "/en/"
   kind: "Communication::Website::Page::Localization"
   lang: "en"
   title: >-
@@ -35,8 +37,6 @@ breadcrumbs:
   - title: >-
       Home
     path: "/en/"
-  - title: >-
-      Posts
 
 design:
   full_width: true
@@ -45,6 +45,10 @@ design:
     offcanvas: true
 
 
+build:
+  list: always
+  publishResources: true
+  render: never
 
 position: 8
 weight: 8
