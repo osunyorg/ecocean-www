@@ -6,8 +6,48 @@ items:
   target: "/en/about-us/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: The company
+    slug: the-company
+    target: "/en/about-us/the-company/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about-us/the-company"
+    file: content/en/pages/about-us/the-company/_index.html
+  - title: The team
+    slug: the-team
+    target: "/en/about-us/the-team/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about-us/the-team"
+    file: content/en/pages/about-us/the-team/_index.html
+  - title: Our resources
+    slug: our-resources
+    target: "/en/about-us/our-resources/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about-us/our-resources"
+    file: content/en/pages/about-us/our-resources/_index.html
+  - title: Our partners and networks
+    slug: our-partners-and-networks
+    target: "/en/about-us/our-partners-and-networks/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/about-us/our-partners-and-networks"
+    file: content/en/pages/about-us/our-partners-and-networks/_index.html
+  descendants_targets:
+  - "/en/about-us/our-partners-and-networks/"
+  - "/en/about-us/our-resources/"
+  - "/en/about-us/the-company/"
+  - "/en/about-us/the-team/"
   path: "/pages/about-us"
   file: content/en/pages/about-us/_index.html
 - title: Our solutions
@@ -15,8 +55,58 @@ items:
   target: "/en/solutions/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Biohut®
+    slug: biohut
+    target: "/en/solutions/biohut/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/solutions/biohut"
+    file: content/en/pages/solutions/biohut/_index.html
+  - title: BioRestore®
+    slug: biorestore
+    target: "/en/solutions/biorestore/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/solutions/biorestore"
+    file: content/en/pages/solutions/biorestore/_index.html
+  - title: Floating ecosystem
+    slug: floating-ecosystem
+    target: "/en/solutions/floating-ecosystem/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/solutions/floating-ecosystem"
+    file: content/en/pages/solutions/floating-ecosystem/_index.html
+  - title: Awareness actions
+    slug: awareness-actions
+    target: "/en/solutions/awareness-actions/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/solutions/awareness-actions"
+    file: content/en/pages/solutions/awareness-actions/_index.html
+  - title: Diagnosis
+    slug: diagnosis
+    target: "/en/solutions/diagnosis/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/solutions/diagnosis"
+    file: content/en/pages/solutions/diagnosis/_index.html
+  descendants_targets:
+  - "/en/solutions/awareness-actions/"
+  - "/en/solutions/biohut/"
+  - "/en/solutions/biorestore/"
+  - "/en/solutions/diagnosis/"
+  - "/en/solutions/floating-ecosystem/"
   path: "/pages/solutions"
   file: content/en/pages/solutions/_index.html
 - title: Your sector
@@ -24,8 +114,68 @@ items:
   target: "/en/your-sector/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Developer
+    slug: developer
+    target: "/en/your-sector/developer/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/developer"
+    file: content/en/pages/your-sector/developer/_index.html
+  - title: Prescriber
+    slug: prescriber
+    target: "/en/your-sector/prescriber/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/prescriber"
+    file: content/en/pages/your-sector/prescriber/_index.html
+  - title: Local government
+    slug: local-government
+    target: "/en/your-sector/local-government/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/local-government"
+    file: content/en/pages/your-sector/local-government/_index.html
+  - title: Energy specialist
+    slug: energy-specialist
+    target: "/en/your-sector/energy-specialist/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/energy-specialist"
+    file: content/en/pages/your-sector/energy-specialist/_index.html
+  - title: Commercial port
+    slug: commercial-port
+    target: "/en/your-sector/commercial-port/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/commercial-port"
+    file: content/en/pages/your-sector/commercial-port/_index.html
+  - title: Marina
+    slug: marina
+    target: "/en/your-sector/marina/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/your-sector/marina"
+    file: content/en/pages/your-sector/marina/_index.html
+  descendants_targets:
+  - "/en/your-sector/commercial-port/"
+  - "/en/your-sector/developer/"
+  - "/en/your-sector/energy-specialist/"
+  - "/en/your-sector/local-government/"
+  - "/en/your-sector/marina/"
+  - "/en/your-sector/prescriber/"
   path: "/pages/your-sector"
   file: content/en/pages/your-sector/_index.html
 - title: Innovation
