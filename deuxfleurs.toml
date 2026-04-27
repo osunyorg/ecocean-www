@@ -13,3 +13,1088 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-6-POSIDONIE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/universite-de-perpignan/index.html"
+to = "/fr/organisations/universite-de-perpignan/"
+
+[[redirects]]
+from = "/organisations/index.html"
+to = "/fr/organisations/"
+
+[[redirects]]
+from = "/fr/projets/2021-quai-dezoum-1/index.html"
+to = "/fr/projets/2021-port-de-copenhague/"
+
+[[redirects]]
+from = "/fr/equipe/categories/projets/index.html"
+to = "/fr/personnes/categories/projets/"
+
+[[redirects]]
+from = "/fr/nos-partenaires-et-sponsors/index.html"
+to = "/fr/a-propos-de-nous/nos-partenaires-et-reseaux/"
+
+[[redirects]]
+from = "/fr/anais-gudefin/index.html"
+to = "/fr/personnes/anais-gudefin/"
+
+[[redirects]]
+from = "/fr/efgl/index.html"
+to = "/fr/organisations/efgl/"
+
+[[redirects]]
+from = "/fr/aarhus-havn/index.html"
+to = "/fr/organisations/aarhus-havn/"
+
+[[redirects]]
+from = "/fr/equipe/laure-lailheugue/index.html"
+to = "/fr/personnes/laure-lailheugue/"
+
+[[redirects]]
+from = "/equipe/categories/aquacole/index.html"
+to = "/fr/personnes/categories/aquacole/"
+
+[[redirects]]
+from = "/en/sebastien-fonbonne/index.html"
+to = "/en/team/sebastien-fonbonne/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-8-CORALLIGENE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/en/joyce-lambert/index.html"
+to = "/en/team/joyce-lambert/"
+
+[[redirects]]
+from = "/fr/biomatrix-water/index.html"
+to = "/fr/organisations/biomatrix-water/"
+
+[[redirects]]
+from = "/en/solutions/diagnostic/index.html"
+to = "/en/solutions/diagnosis/"
+
+[[redirects]]
+from = "/en/cdc-biodiversite/index.html"
+to = "/en/organizations/cdc-biodiversite/"
+
+[[redirects]]
+from = "/en/arcelor-mittal/index.html"
+to = "/en/organizations/arcelor-mittal/"
+
+[[redirects]]
+from = "/en/sud-mer-invest/index.html"
+to = "/en/organizations/sud-mer-invest/"
+
+[[redirects]]
+from = "/fr/equipe/joyce-lambert/index.html"
+to = "/fr/personnes/joyce-lambert/"
+
+[[redirects]]
+from = "/en/crem/index.html"
+to = "/en/organizations/crem/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-11-POISSONS.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/agenda/colloque/index.html"
+to = "/fr/agenda/colloque/"
+
+[[redirects]]
+from = "/fr/categories/technique/index.html"
+to = "/fr/personnes/categories/technique/"
+
+[[redirects]]
+from = "/fr/rte/index.html"
+to = "/fr/organisations/rte/"
+
+[[redirects]]
+from = "/equipe/categories/direction/index.html"
+to = "/fr/personnes/categories/direction/"
+
+[[redirects]]
+from = "/fr/equipe/categories/communication/index.html"
+to = "/fr/categories/communication/"
+
+[[redirects]]
+from = "/en/byhavn/index.html"
+to = "/en/organizations/byhavn/"
+
+[[redirects]]
+from = "/fr/projets/2025-quai-dezoums-1/index.html"
+to = "/fr/projets/2025-quai-dezoums/"
+
+[[redirects]]
+from = "/equipe/categories/technique/index.html"
+to = "/fr/personnes/categories/technique/"
+
+[[redirects]]
+from = "/en/laure-lailheugue/index.html"
+to = "/en/team/laure-lailheugue/"
+
+[[redirects]]
+from = "/en/marina-du-marin/index.html"
+to = "/en/organizations/marina-du-marin/"
+
+[[redirects]]
+from = "/fr/equipe/alizee-frezel/index.html"
+to = "/fr/personnes/alizee-frezel/"
+
+[[redirects]]
+from = "/en/sulubaai/index.html"
+to = "/en/organizations/sulubaai/"
+
+[[redirects]]
+from = "/organisations/region-sud-provence-alpes-cote-dazur/index.html"
+to = "/fr/organisations/region-sud-provence-alpes-cote-dazur/"
+
+[[redirects]]
+from = "/en/ad-ports-group/index.html"
+to = "/en/organizations/ad-ports-group/"
+
+[[redirects]]
+from = "/fr/uvpo/index.html"
+to = "/fr/organisations/uvpo/"
+
+[[redirects]]
+from = "/eau-douce/index.html"
+to = "/fr/solutions/radeaux-vegetalises/"
+
+[[redirects]]
+from = "/fr/a-propos-de-nous/nos-partenaires-et-sponsors/index.html"
+to = "/fr/a-propos-de-nous/nos-partenaires-et-reseaux/"
+
+[[redirects]]
+from = "/en/eiffage/index.html"
+to = "/en/organizations/eiffage/"
+
+[[redirects]]
+from = "/fr/baptiste-deruytere/index.html"
+to = "/fr/personnes/baptiste-deruytere/"
+
+[[redirects]]
+from = "/en/alizee-frezel/index.html"
+to = "/en/team/alizee-frezel/"
+
+[[redirects]]
+from = "/fr/equipe/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/fr/categories/direction/index.html"
+to = "/fr/personnes/categories/direction/"
+
+[[redirects]]
+from = "/equipe/antony-fortin/index.html"
+to = "/fr/personnes/antony-fortin/"
+
+[[redirects]]
+from = "/en/gilles-lecaillon/index.html"
+to = "/en/team/gilles-lecaillon/"
+
+[[redirects]]
+from = "/fr/universite-de-bristol/index.html"
+to = "/fr/organisations/universite-de-bristol/"
+
+[[redirects]]
+from = "/fr/equipe/categories/technique/index.html"
+to = "/fr/personnes/categories/technique/"
+
+[[redirects]]
+from = "/restauration-ecologique/index.html"
+to = "/fr/"
+
+[[redirects]]
+from = "/en/bayware/index.html"
+to = "/en/organizations/bayware/"
+
+[[redirects]]
+from = "/https:/www.ecocean.fr/ecological-restoration/index.html"
+to = "/en/"
+
+[[redirects]]
+from = "/projets/index.html"
+to = "/fr/projets/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-3-RECHAUFFEMENT-CLIMATIQUE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-2-GEOLOGIE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/activites/prescripteurs/index.html"
+to = "/fr/activites/prescripteur/"
+
+[[redirects]]
+from = "/en/vinci-construction/index.html"
+to = "/en/organizations/vinci-construction/"
+
+[[redirects]]
+from = "/fr/eiffage-metal/index.html"
+to = "/fr/organisations/eiffage-metal/"
+
+[[redirects]]
+from = "/fr/equipe/gilles-lecaillon/index.html"
+to = "/fr/personnes/gilles-lecaillon/"
+
+[[redirects]]
+from = "/fr/aivp/index.html"
+to = "/fr/organisations/aivp/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/index.html"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/fr/caisse-des-depots/index.html"
+to = "/fr/organisations/caisse-des-depots/"
+
+[[redirects]]
+from = "/fr/pierre-yves-ferot/index.html"
+to = "/fr/personnes/pierre-yves-ferot/"
+
+[[redirects]]
+from = "/en/upaca/index.html"
+to = "/en/organizations/upaca/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-9-CETACES.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/organisations/universite-perpignan/index.html"
+to = "/fr/organisations/universite-de-perpignan/"
+
+[[redirects]]
+from = "/fr/ports-du-cap-dagde/index.html"
+to = "/fr/organisations/ports-du-cap-dagde/"
+
+[[redirects]]
+from = "/fr/projets/2021-deltamar-1/index.html"
+to = "/fr/projets/2021-deltamar/"
+
+[[redirects]]
+from = "/lequipe/index.html"
+to = "/fr/a-propos-de-nous/lequipe/"
+
+[[redirects]]
+from = "/fr/departement-des-pyrenees-orientales/index.html"
+to = "/fr/organisations/departement-des-pyrenees-orientales/"
+
+[[redirects]]
+from = "/en/cma-cgm/index.html"
+to = "/en/organizations/cma-cgm/"
+
+[[redirects]]
+from = "/fr/port-vauban/index.html"
+to = "/fr/organisations/port-vauban/"
+
+[[redirects]]
+from = "/en/region-occitanie/index.html"
+to = "/en/organizations/region-occitanie/"
+
+[[redirects]]
+from = "/expositions/archives-expositions/index.html"
+to = "/fr/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/organisations/agence-de-leau-rhone-mediterranee-corse/index.html"
+to = "/fr/organisations/agence-de-leau-rhone-mediterranee-corse/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-7-LES-OISEAUX.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/en/exhibitions-archives/index.html"
+to = "/en/exhibitions/exhibitions-archives/"
+
+[[redirects]]
+from = "/en/universite-de-perpignan/index.html"
+to = "/en/organizations/universite-de-perpignan/"
+
+[[redirects]]
+from = "/agenda/2025/salon-des-maires/index.html"
+to = "/fr/agenda/2026/salon-des-maires/"
+
+[[redirects]]
+from = "/en/anais-gudefin/index.html"
+to = "/en/team/anais-gudefin/"
+
+[[redirects]]
+from = "/en/baptiste-deruytere/index.html"
+to = "/en/team/baptiste-deruytere/"
+
+[[redirects]]
+from = "/en/ocergy/index.html"
+to = "/en/organizations/ocergy/"
+
+[[redirects]]
+from = "/fr/equipe/regis-calcar/index.html"
+to = "/fr/personnes/regis-calcar/"
+
+[[redirects]]
+from = "/fr/alizee-frezel/index.html"
+to = "/fr/personnes/alizee-frezel/"
+
+[[redirects]]
+from = "/en/museum-national-dhistoire-naturelle-mnhn/index.html"
+to = "/en/organizations/museum-national-dhistoire-naturelle-mnhn/"
+
+[[redirects]]
+from = "/fr/a-la-une/index.html"
+to = "/fr/actualites/a-la-une/"
+
+[[redirects]]
+from = "/en/france-2030/index.html"
+to = "/en/organizations/france-2030/"
+
+[[redirects]]
+from = "/sensibilisation/index.html"
+to = "/fr/solutions/sensibilisation/"
+
+[[redirects]]
+from = "/ressources/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
+from = "/fr/archives-expositions/index.html"
+to = "/fr/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/en/solar-impulse-efficient-solution/index.html"
+to = "/en/organizations/solar-impulse-efficient-solution/"
+
+[[redirects]]
+from = "/fr/vinci-construction/index.html"
+to = "/fr/organisations/vinci-construction/"
+
+[[redirects]]
+from = "/en/initiative-pim/index.html"
+to = "/en/organizations/initiative-pim/"
+
+[[redirects]]
+from = "/organisations/port-de-bruxelles/index.html"
+to = "/fr/organisations/port-de-bruxelles/"
+
+[[redirects]]
+from = "/materiel-de-peche-et-delevage/index.html"
+to = "/fr/solutions/biorestore/"
+
+[[redirects]]
+from = "/fr/agenda/2025/salon-des-maires/index.html"
+to = "/fr/agenda/2026/salon-des-maires/"
+
+[[redirects]]
+from = "/en/ffem/index.html"
+to = "/en/organizations/ffem/"
+
+[[redirects]]
+from = "/fr/equipe/categories/direction/index.html"
+to = "/fr/personnes/categories/direction/"
+
+[[redirects]]
+from = "/equipe/severine-pristchepa/index.html"
+to = "/fr/personnes/severine-pristchepa/"
+
+[[redirects]]
+from = "/en/ville-de-pantin/index.html"
+to = "/en/organizations/ville-de-pantin/"
+
+[[redirects]]
+from = "/fr/renewables-grid-initiative/index.html"
+to = "/fr/organisations/renewables-grid-initiative/"
+
+[[redirects]]
+from = "/fr/equipe/categories/aquacole/index.html"
+to = "/fr/personnes/categories/aquacole/"
+
+[[redirects]]
+from = "/fr/equipe/ressources/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
+from = "/en/severine-pristchepa/index.html"
+to = "/en/team/severine-pristchepa/"
+
+[[redirects]]
+from = "/fr/nikita-rosso/index.html"
+to = "/fr/personnes/nikita-rosso/"
+
+[[redirects]]
+from = "/mentions-legales/index.html"
+to = "/fr/mentions-legales/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/fr/crem/index.html"
+to = "/fr/organisations/crem/"
+
+[[redirects]]
+from = "/fr/appa/index.html"
+to = "/fr/organisations/appa/"
+
+[[redirects]]
+from = "/fr/region-occitanie/index.html"
+to = "/fr/organisations/region-occitanie/"
+
+[[redirects]]
+from = "/en/cnrs/index.html"
+to = "/en/organizations/cnrs/"
+
+[[redirects]]
+from = "/fr/groenleven/index.html"
+to = "/fr/organisations/groenleven/"
+
+[[redirects]]
+from = "/en/departement-des-pyrenees-orientales/index.html"
+to = "/en/organizations/departement-des-pyrenees-orientales/"
+
+[[redirects]]
+from = "/organisations/categories/partenaires/index.html"
+to = "/fr/organisations/categories/partenaires/"
+
+[[redirects]]
+from = "/fr/cnrs/index.html"
+to = "/fr/organisations/cnrs/"
+
+[[redirects]]
+from = "/fr/laure-lailheugue/index.html"
+to = "/fr/personnes/laure-lailheugue/"
+
+[[redirects]]
+from = "/en/eiffage-smulders/index.html"
+to = "/en/organizations/eiffage-smulders/"
+
+[[redirects]]
+from = "/https:/www.ecocean.fr/home/index.html"
+to = "/fr/"
+
+[[redirects]]
+from = "/en/frederique-bault/index.html"
+to = "/en/team/frederique-bault/"
+
+[[redirects]]
+from = "/en/capa/index.html"
+to = "/en/organizations/capa/"
+
+[[redirects]]
+from = "/equipe/categories/communication/index.html"
+to = "/fr/categories/communication/"
+
+[[redirects]]
+from = "/en/antony-fortin/index.html"
+to = "/en/team/antony-fortin/"
+
+[[redirects]]
+from = "/fr/capa/index.html"
+to = "/fr/organisations/capa/"
+
+[[redirects]]
+from = "/en/renewables-grid-initiative/index.html"
+to = "/en/organizations/renewables-grid-initiative/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-4-POLLUTION.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/projets/2025-emf/index.html"
+to = "/fr/projets/2025-caipim/"
+
+[[redirects]]
+from = "/en/andromede-oceanologie/index.html"
+to = "/en/organizations/andromede-oceanologie/"
+
+[[redirects]]
+from = "/fr/eiffage-smulders/index.html"
+to = "/fr/organisations/eiffage-smulders/"
+
+[[redirects]]
+from = "/equipe/anais-gudefin/index.html"
+to = "/fr/personnes/anais-gudefin/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/fr/agenda/"
+
+[[redirects]]
+from = "/fr/wwf/index.html"
+to = "/fr/organisations/wwf/"
+
+[[redirects]]
+from = "/en/appa/index.html"
+to = "/en/organizations/appa/"
+
+[[redirects]]
+from = "/fr/byhavn/index.html"
+to = "/fr/organisations/byhavn/"
+
+[[redirects]]
+from = "/fr/france-2030/index.html"
+to = "/fr/organisations/france-2030/"
+
+[[redirects]]
+from = "/equipe/anaelle-grosbois/index.html"
+to = "/fr/personnes/anaelle-grosbois/"
+
+[[redirects]]
+from = "/en/etienne-abadie/index.html"
+to = "/en/team/etienne-abadie/"
+
+[[redirects]]
+from = "/fr/sulubaai/index.html"
+to = "/fr/organisations/sulubaai/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-10-BIODIVERSITE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/en/isabelle-lacroix/index.html"
+to = "/en/team/isabelle-lacroix/"
+
+[[redirects]]
+from = "/fr/cma-cgm/index.html"
+to = "/fr/organisations/cma-cgm/"
+
+[[redirects]]
+from = "/fr/equipe/pierre-yves-ferot/index.html"
+to = "/fr/personnes/pierre-yves-ferot/"
+
+[[redirects]]
+from = "/en/sodeal/index.html"
+to = "/en/organizations/sodeal/"
+
+[[redirects]]
+from = "/en/groenleven/index.html"
+to = "/en/organizations/groenleven/"
+
+[[redirects]]
+from = "/en/tennet/index.html"
+to = "/en/organizations/tennet/"
+
+[[redirects]]
+from = "/en/agence-de-leau-rhone-mediterranee-corse/index.html"
+to = "/en/organizations/agence-de-leau-rhone-mediterranee-corse/"
+
+[[redirects]]
+from = "/fr/sud-mer-invest/index.html"
+to = "/fr/organisations/sud-mer-invest/"
+
+[[redirects]]
+from = "/en/wwf/index.html"
+to = "/en/organizations/wwf/"
+
+[[redirects]]
+from = "/equipe/sebastien-fonbonne/index.html"
+to = "/fr/personnes/sebastien-fonbonne/"
+
+[[redirects]]
+from = "/fr/equipe/sebastien-fonbonne/index.html"
+to = "/fr/personnes/sebastien-fonbonne/"
+
+[[redirects]]
+from = "/fr/equipe/damien-einsargueix/index.html"
+to = "/fr/personnes/damien-einsargueix/"
+
+[[redirects]]
+from = "/fr/regis-calcar/index.html"
+to = "/fr/personnes/regis-calcar/"
+
+[[redirects]]
+from = "/fr/principle-power/index.html"
+to = "/fr/organisations/principle-power/"
+
+[[redirects]]
+from = "/fr/la-mer-en-commun/index.html"
+to = "/fr/organisations/la-mer-en-commun/"
+
+[[redirects]]
+from = "/en/regis-calcar/index.html"
+to = "/en/team/regis-calcar/"
+
+[[redirects]]
+from = "/en/aarhus-havn/index.html"
+to = "/en/organizations/aarhus-havn/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-12-AMP.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/initiative-pim/index.html"
+to = "/fr/organisations/initiative-pim/"
+
+[[redirects]]
+from = "/fr/severine-pristchepa/index.html"
+to = "/fr/personnes/severine-pristchepa/"
+
+[[redirects]]
+from = "/en/ocean-winds/index.html"
+to = "/en/organizations/ocean-winds/"
+
+[[redirects]]
+from = "/en/banque-des-territoires/index.html"
+to = "/en/organizations/banque-des-territoires/"
+
+[[redirects]]
+from = "/fr/projets/2023-khalifa-industrial-port-1/index.html"
+to = "/fr/projets/2023-terminal-industriel-polyvalent-san-pedro/"
+
+[[redirects]]
+from = "/en/uvpo/index.html"
+to = "/en/organizations/uvpo/"
+
+[[redirects]]
+from = "/en/alliance-verte/index.html"
+to = "/en/organizations/alliance-verte/"
+
+[[redirects]]
+from = "/en/rte/index.html"
+to = "/en/organizations/rte/"
+
+[[redirects]]
+from = "/expositions/index.html"
+to = "/fr/expositions/"
+
+[[redirects]]
+from = "/fr/equipe/frederique-bault/index.html"
+to = "/fr/personnes/frederique-bault/"
+
+[[redirects]]
+from = "/fr/categories/aquacole/index.html"
+to = "/fr/personnes/categories/aquacole/"
+
+[[redirects]]
+from = "/fr/lentreprise/index.html"
+to = "/fr/a-propos-de-nous/lentreprise/"
+
+[[redirects]]
+from = "/equipe/index.html"
+to = "/fr/a-propos-de-nous/lequipe/"
+
+[[redirects]]
+from = "/fr/equipe/baptiste-deruytere/index.html"
+to = "/fr/personnes/baptiste-deruytere/"
+
+[[redirects]]
+from = "/fr/isabelle-lacroix/index.html"
+to = "/fr/personnes/isabelle-lacroix/"
+
+[[redirects]]
+from = "/equipe/categories/projets/index.html"
+to = "/fr/personnes/categories/projets/"
+
+[[redirects]]
+from = "/agenda/salon/index.html"
+to = "/fr/agenda/salon/"
+
+[[redirects]]
+from = "/fr/upaca/index.html"
+to = "/fr/organisations/upaca/"
+
+[[redirects]]
+from = "/fr/port-de-bruxelles/index.html"
+to = "/fr/organisations/port-de-bruxelles/"
+
+[[redirects]]
+from = "/fr/andromede-oceanologie/index.html"
+to = "/fr/organisations/andromede-oceanologie/"
+
+[[redirects]]
+from = "/en/pole-mer-mediterranee/index.html"
+to = "/en/organizations/pole-mer-mediterranee/"
+
+[[redirects]]
+from = "/fr/anaelle-grosbois/index.html"
+to = "/fr/personnes/anaelle-grosbois/"
+
+[[redirects]]
+from = "/fr/categories/certifications-et-labels/index.html"
+to = "/fr/organisations/categories/certifications-et-labels/"
+
+[[redirects]]
+from = "/en/eiffage-metal/index.html"
+to = "/en/organizations/eiffage-metal/"
+
+[[redirects]]
+from = "/en/pierre-yves-ferot/index.html"
+to = "/en/team/pierre-yves-ferot/"
+
+[[redirects]]
+from = "/en/upge/index.html"
+to = "/en/organizations/upge/"
+
+[[redirects]]
+from = "/fr/categories/projets/index.html"
+to = "/fr/personnes/categories/projets/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-5-BIOHUT.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/en/biomatrix-water/index.html"
+to = "/en/organizations/biomatrix-water/"
+
+[[redirects]]
+from = "/en/conservatoire-du-littoral/index.html"
+to = "/en/organizations/conservatoire-du-littoral/"
+
+[[redirects]]
+from = "/fr/terminal-industriel-polyvalent-de-san-pedro/index.html"
+to = "/fr/organisations/terminal-industriel-polyvalent-de-san-pedro/"
+
+[[redirects]]
+from = "/en/principle-power/index.html"
+to = "/en/organizations/principle-power/"
+
+[[redirects]]
+from = "/fr/port-de-palavas-les-flots/index.html"
+to = "/fr/organisations/port-de-palavas-les-flots/"
+
+[[redirects]]
+from = "/organisations/grand-port-maritime-de-marseille/index.html"
+to = "/fr/organisations/grand-port-maritime-de-marseille/"
+
+[[redirects]]
+from = "/en/nikita-rosso/index.html"
+to = "/en/team/nikita-rosso/"
+
+[[redirects]]
+from = "/fr/lequipe/index.html"
+to = "/fr/a-propos-de-nous/lequipe/"
+
+[[redirects]]
+from = "/fr/etienne-abadie/index.html"
+to = "/fr/personnes/etienne-abadie/"
+
+[[redirects]]
+from = "/en/caipim/index.html"
+to = "/en/organizations/caipim/"
+
+[[redirects]]
+from = "/en/editors/index.html"
+to = "/en/team/editors/"
+
+[[redirects]]
+from = "/accessibilite/index.html"
+to = "/fr/accessibilite/"
+
+[[redirects]]
+from = "/en/caisse-des-depots/index.html"
+to = "/en/organizations/caisse-des-depots/"
+
+[[redirects]]
+from = "/plan-du-site/index.html"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
+from = "/fr/projets/2023-port-autonome-san-pedro/index.html"
+to = "/fr/projets/2023-terminal-industriel-polyvalent-san-pedro/"
+
+[[redirects]]
+from = "/fr/categories/reseaux/index.html"
+to = "/fr/organisations/categories/reseaux/"
+
+[[redirects]]
+from = "/en/ports-du-cap-dagde/index.html"
+to = "/en/organizations/ports-du-cap-dagde/"
+
+[[redirects]]
+from = "/fr/organisations/region-occitanie-pyrenee-mediterranee/index.html"
+to = "/fr/organisations/region-occitanie/"
+
+[[redirects]]
+from = "/documents-a-telecharger/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
+from = "/en/port-de-palavas-les-flots/index.html"
+to = "/en/organizations/port-de-palavas-les-flots/"
+
+[[redirects]]
+from = "/fr/eiffage/index.html"
+to = "/fr/organisations/eiffage/"
+
+[[redirects]]
+from = "/fr/equipe/antony-fortin/index.html"
+to = "/fr/personnes/antony-fortin/"
+
+[[redirects]]
+from = "/fr/equipe/anais-gudefin/index.html"
+to = "/fr/personnes/anais-gudefin/"
+
+[[redirects]]
+from = "/fr/frederique-bault/index.html"
+to = "/fr/personnes/frederique-bault/"
+
+[[redirects]]
+from = "/organisations/universite-perpignan/index.html"
+to = "/fr/organisations/universite-de-perpignan/"
+
+[[redirects]]
+from = "/en/efgl/index.html"
+to = "/en/organizations/efgl/"
+
+[[redirects]]
+from = "/fr/ressources/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
+from = "/fr/ville-de-pantin/index.html"
+to = "/fr/organisations/ville-de-pantin/"
+
+[[redirects]]
+from = "/en/universite-de-bristol/index.html"
+to = "/en/organizations/universite-de-bristol/"
+
+[[redirects]]
+from = "/en/la-mer-en-commun/index.html"
+to = "/en/organizations/la-mer-en-commun/"
+
+[[redirects]]
+from = "/fr/sodeal/index.html"
+to = "/fr/organisations/sodeal/"
+
+[[redirects]]
+from = "/fr/alliance-verte/index.html"
+to = "/fr/organisations/alliance-verte/"
+
+[[redirects]]
+from = "/en/plan-littoral-mediterranee-21/index.html"
+to = "/en/organizations/plan-littoral-mediterranee-21/"
+
+[[redirects]]
+from = "/organisations/region-occitanie-pyrenee-mediterranee/index.html"
+to = "/fr/organisations/region-occitanie/"
+
+[[redirects]]
+from = "/fr/pole-mer-mediterranee/index.html"
+to = "/fr/organisations/pole-mer-mediterranee/"
+
+[[redirects]]
+from = "/fr/ocean-winds/index.html"
+to = "/fr/organisations/ocean-winds/"
+
+[[redirects]]
+from = "/en/region-sud-provence-alpes-cote-dazur/index.html"
+to = "/en/organizations/region-sud-provence-alpes-cote-dazur/"
+
+[[redirects]]
+from = "/fr/projets/2025-respire/index.html"
+to = "/fr/projets/2015-respire/"
+
+[[redirects]]
+from = "/fr/equipe/anaelle-grosbois/index.html"
+to = "/fr/personnes/anaelle-grosbois/"
+
+[[redirects]]
+from = "/fr/arcelor-mittal/index.html"
+to = "/fr/organisations/arcelor-mittal/"
+
+[[redirects]]
+from = "/fr/antony-fortin/index.html"
+to = "/fr/personnes/antony-fortin/"
+
+[[redirects]]
+from = "/fr/marina-du-marin/index.html"
+to = "/fr/organisations/marina-du-marin/"
+
+[[redirects]]
+from = "/equipe/gilles-lecaillon/index.html"
+to = "/fr/personnes/gilles-lecaillon/"
+
+[[redirects]]
+from = "/elevage-raisonne/index.html"
+to = "/fr/solutions/biorestore/"
+
+[[redirects]]
+from = "/fr/museum-national-dhistoire-naturelle-mnhn/index.html"
+to = "/fr/organisations/museum-national-dhistoire-naturelle-mnhn/"
+
+[[redirects]]
+from = "/en/terminal-industriel-polyvalent-de-san-pedro/index.html"
+to = "/en/organizations/terminal-industriel-polyvalent-de-san-pedro/"
+
+[[redirects]]
+from = "/fr/banque-des-territoires/index.html"
+to = "/fr/organisations/banque-des-territoires/"
+
+[[redirects]]
+from = "/fr/sebastien-fonbonne/index.html"
+to = "/fr/personnes/sebastien-fonbonne/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/fr/actualites/"
+
+[[redirects]]
+from = "/fr/ad-ports-group/index.html"
+to = "/fr/organisations/ad-ports-group/"
+
+[[redirects]]
+from = "/fr/damien-einsargueix/index.html"
+to = "/fr/personnes/damien-einsargueix/"
+
+[[redirects]]
+from = "/fr/conservatoire-du-littoral/index.html"
+to = "/fr/organisations/conservatoire-du-littoral/"
+
+[[redirects]]
+from = "/fr/projets/2021-wwf-danemark/index.html"
+to = "/fr/projets/2021-port-de-copenhague/"
+
+[[redirects]]
+from = "/en/anaelle-grosbois/index.html"
+to = "/en/team/anaelle-grosbois/"
+
+[[redirects]]
+from = "/https:/www.ecocean.fr/documents-to-download/index.html"
+to = "/en/about-us/our-resources/"
+
+[[redirects]]
+from = "/fr/equipe/etienne-abadie/index.html"
+to = "/fr/personnes/etienne-abadie/"
+
+[[redirects]]
+from = "/en/damien-einsargueix/index.html"
+to = "/en/team/damien-einsargueix/"
+
+[[redirects]]
+from = "/equipe/lequipe/index.html"
+to = "/fr/a-propos-de-nous/lequipe/"
+
+[[redirects]]
+from = "/fr/categories/support/index.html"
+to = "/fr/personnes/categories/support/"
+
+[[redirects]]
+from = "/fr/projets/2024-quai-dezoums-1/index.html"
+to = "/fr/projets/2025-quai-dezoums/"
+
+[[redirects]]
+from = "/organisations/cefrem/index.html"
+to = "/fr/organisations/cefrem/"
+
+[[redirects]]
+from = "/actualites/a-la-une/index.html"
+to = "/fr/actualites/a-la-une/"
+
+[[redirects]]
+from = "/fr/equipe/lentreprise/index.html"
+to = "/fr/a-propos-de-nous/lentreprise/"
+
+[[redirects]]
+from = "/en/origine-france-garantie/index.html"
+to = "/en/organizations/origine-france-garantie/"
+
+[[redirects]]
+from = "/en/port-de-bruxelles/index.html"
+to = "/en/organizations/port-de-bruxelles/"
+
+[[redirects]]
+from = "/fr/categories/partenaires/index.html"
+to = "/fr/organisations/categories/partenaires/"
+
+[[redirects]]
+from = "/organisations/cdc-biodiversite/index.html"
+to = "/fr/organisations/cdc-biodiversite/"
+
+[[redirects]]
+from = "/fr/ocergy/index.html"
+to = "/fr/organisations/ocergy/"
+
+[[redirects]]
+from = "/fr/cdc-biodiversite/index.html"
+to = "/fr/organisations/cdc-biodiversite/"
+
+[[redirects]]
+from = "/historique/index.html"
+to = "/fr/a-propos-de-nous/lentreprise/"
+
+[[redirects]]
+from = "/equipe/ressources/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
+from = "/en/port-vauban/index.html"
+to = "/en/organizations/port-vauban/"
+
+[[redirects]]
+from = "/fr/equipe/severine-pristchepa/index.html"
+to = "/fr/personnes/severine-pristchepa/"
+
+[[redirects]]
+from = "/fr/equipe/lequipe/index.html"
+to = "/fr/a-propos-de-nous/lequipe/"
+
+[[redirects]]
+from = "/fr/agence-de-leau-rhone-mediterranee-corse/index.html"
+to = "/fr/organisations/agence-de-leau-rhone-mediterranee-corse/"
+
+[[redirects]]
+from = "/fr/solar-impulse-efficient-solution/index.html"
+to = "/fr/organisations/solar-impulse-efficient-solution/"
+
+[[redirects]]
+from = "/2019/wp-content/uploads/2023/05/Question-1-MER-MEDITERRANEE.mp3/index.html"
+to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/fr/bayware/index.html"
+to = "/fr/organisations/bayware/"
+
+[[redirects]]
+from = "/fr/projets/2023-bruxelles/index.html"
+to = "/fr/projets/2022-bruxelles/"
+
+[[redirects]]
+from = "/fr/equipe/categories/support/index.html"
+to = "/fr/personnes/categories/support/"
+
+[[redirects]]
+from = "/fr/origine-france-garantie/index.html"
+to = "/fr/organisations/origine-france-garantie/"
+
+[[redirects]]
+from = "/fr/region-sud-provence-alpes-cote-dazur/index.html"
+to = "/fr/organisations/region-sud-provence-alpes-cote-dazur/"
+
+[[redirects]]
+from = "/fr/ffem/index.html"
+to = "/fr/organisations/ffem/"
+
+[[redirects]]
+from = "/fr/caipim/index.html"
+to = "/fr/organisations/caipim/"
+
+[[redirects]]
+from = "/fr/gilles-lecaillon/index.html"
+to = "/fr/personnes/gilles-lecaillon/"
+
+[[redirects]]
+from = "/diagnostic-et-rd/index.html"
+to = "/fr/solutions/diagnostic/"
+
+[[redirects]]
+from = "/en/aivp/index.html"
+to = "/en/organizations/aivp/"
+
+[[redirects]]
+from = "/fr/activites/bureaux-detude-et-ong/index.html"
+to = "/fr/activites/prescripteur/"
+
