@@ -64,9 +64,9 @@ fr:
             https://www.facebook.com/EcoceanPCC
         instagram:
           label: >-
-            ecoceanfrance?hl=fr
+            ecoceanfrance
           value: >-
-            https://instagram.com/ecoceanfrance?hl=fr
+            https://instagram.com/ecoceanfrance
         linkedin:
           label: >-
             ecocean-sas
@@ -79,9 +79,9 @@ fr:
             https://vimeo.com/ecocean
         youtube:
           label: >-
-            channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
+            ecoceanfrance
           value: >-
-            https://www.youtube.com/@channelUCP_F2ZIm1u29RyB3gYraqPQ?view_as=subscriber
+            https://www.youtube.com/@ecoceanfrance
 
   taxonomies:
     administrator: administrators
