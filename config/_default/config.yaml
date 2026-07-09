@@ -38,3 +38,9 @@ params:
       layout: list
       options:
         year: true
+    single:
+      meta:
+        position: hero
+        options:
+          share: false
+          with_labels: false
