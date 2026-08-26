@@ -951,6 +951,10 @@ from = "/fr/damien-einsargueix/index.html"
 to = "/fr/personnes/damien-einsargueix/"
 
 [[redirects]]
+from = "/https:/www.ecocean.fr/wp-content/uploads/Ecocean-Diagnostic-Guide-Post-Larve-Mediterranee-2012-fr.pdf/index.html"
+to = "/fr/a-propos-de-nous/ressources/"
+
+[[redirects]]
 from = "/fr/conservatoire-du-littoral/index.html"
 to = "/fr/organisations/conservatoire-du-littoral/"
 
