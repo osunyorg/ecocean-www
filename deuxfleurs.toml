@@ -279,6 +279,10 @@ from = "/fr/ports-du-cap-dagde/index.html"
 to = "/fr/organisations/ports-du-cap-dagde/"
 
 [[redirects]]
+from = "/fr/fichiers/2026/index.html"
+to = "/fr/fichiers/2026/mercader-et-al-2017-girelpdf/"
+
+[[redirects]]
 from = "/fr/projets/2021-deltamar-1/index.html"
 to = "/fr/projets/2021-deltamar/"
 
@@ -461,6 +465,10 @@ to = "/fr/organisations/groenleven/"
 [[redirects]]
 from = "/en/departement-des-pyrenees-orientales/index.html"
 to = "/en/organizations/departement-des-pyrenees-orientales/"
+
+[[redirects]]
+from = "/en/2026/index.html"
+to = "/en/2026/article-rim2024-v1pdf/"
 
 [[redirects]]
 from = "/organisations/categories/partenaires/index.html"
