@@ -23,12 +23,20 @@ from = "/fr/universite-de-perpignan/index.html"
 to = "/fr/organisations/universite-de-perpignan/"
 
 [[redirects]]
+from = "/en/2026/these-selfati-2020pdf/index.html"
+to = "/en/files/2026/these-selfati-2020pdf/"
+
+[[redirects]]
 from = "/organisations/index.html"
 to = "/fr/organisations/"
 
 [[redirects]]
 from = "/fr/projets/2021-quai-dezoum-1/index.html"
 to = "/fr/projets/2021-port-de-copenhague/"
+
+[[redirects]]
+from = "/en/2026/these-varenne-2024pdf/index.html"
+to = "/en/files/2026/these-varenne-2024pdf/"
 
 [[redirects]]
 from = "/fr/equipe/categories/projets/index.html"
@@ -61,6 +69,10 @@ to = "/fr/personnes/categories/aquacole/"
 [[redirects]]
 from = "/en/sebastien-fonbonne/index.html"
 to = "/en/team/sebastien-fonbonne/"
+
+[[redirects]]
+from = "/en/2026/guideunescopdf/index.html"
+to = "/en/files/2026/guideunescopdf/"
 
 [[redirects]]
 from = "/2019/wp-content/uploads/2023/05/Question-8-CORALLIGENE.mp3/index.html"
@@ -179,6 +191,10 @@ from = "/fr/baptiste-deruytere/index.html"
 to = "/fr/personnes/baptiste-deruytere/"
 
 [[redirects]]
+from = "/en/2026/plqt-biorest-2020-netpdf/index.html"
+to = "/en/files/2026/plqt-biorest-2020-netpdf/"
+
+[[redirects]]
 from = "/en/alizee-frezel/index.html"
 to = "/en/team/alizee-frezel/"
 
@@ -219,6 +235,10 @@ from = "/https:/www.ecocean.fr/ecological-restoration/index.html"
 to = "/en/"
 
 [[redirects]]
+from = "/en/2026/varenne-et-al-2023-immersion-time-determines-performance-of-artificial-habitatspdf/index.html"
+to = "/en/files/2026/varenne-et-al-2023-immersion-time-determines-performance-of-artificial-habitatspdf/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/fr/projets/"
 
@@ -235,12 +255,24 @@ from = "/fr/activites/prescripteurs/index.html"
 to = "/fr/activites/prescripteur/"
 
 [[redirects]]
+from = "/en/2026/guide-petits-fonds-cotiers-fnepdf/index.html"
+to = "/en/files/2026/guide-petits-fonds-cotiers-fnepdf/"
+
+[[redirects]]
 from = "/en/vinci-construction/index.html"
 to = "/en/organizations/vinci-construction/"
 
 [[redirects]]
 from = "/fr/eiffage-metal/index.html"
 to = "/fr/organisations/eiffage-metal/"
+
+[[redirects]]
+from = "/en/2026/richardson-et-al-2019-assemblages-invertebres-biohutpdf/index.html"
+to = "/en/files/2026/richardson-et-al-2019-assemblages-invertebres-biohutpdf/"
+
+[[redirects]]
+from = "/en/2026/these-bouchoucha-2018pdf/index.html"
+to = "/en/files/2026/these-bouchoucha-2018pdf/"
 
 [[redirects]]
 from = "/fr/equipe/gilles-lecaillon/index.html"
@@ -255,6 +287,10 @@ from = "/politique-de-confidentialite/index.html"
 to = "/fr/politique-de-confidentialite/"
 
 [[redirects]]
+from = "/en/2026/mercader-etal-2016-mar-biod-shortnotepdf/index.html"
+to = "/en/files/2026/mercader-etal-2016-mar-biod-shortnotepdf/"
+
+[[redirects]]
 from = "/fr/caisse-des-depots/index.html"
 to = "/fr/organisations/caisse-des-depots/"
 
@@ -267,12 +303,20 @@ from = "/en/upaca/index.html"
 to = "/en/organizations/upaca/"
 
 [[redirects]]
+from = "/en/2026/ecocean-elevage-raisonne-article-lecaillon-2005-enpdf/index.html"
+to = "/en/files/2026/ecocean-elevage-raisonne-article-lecaillon-2005-enpdf/"
+
+[[redirects]]
 from = "/2019/wp-content/uploads/2023/05/Question-9-CETACES.mp3/index.html"
 to = "/fr/projets/2022-captain-game-agde/"
 
 [[redirects]]
 from = "/fr/organisations/universite-perpignan/index.html"
 to = "/fr/organisations/universite-de-perpignan/"
+
+[[redirects]]
+from = "/en/2026/lepage-etal-chapter20-page391to409pdf/index.html"
+to = "/en/files/2026/lepage-etal-chapter20-page391to409pdf/"
 
 [[redirects]]
 from = "/fr/ports-du-cap-dagde/index.html"
@@ -285,6 +329,10 @@ to = "/fr/fichiers/2026/mercader-et-al-2017-girelpdf/"
 [[redirects]]
 from = "/fr/projets/2021-deltamar-1/index.html"
 to = "/fr/projets/2021-deltamar/"
+
+[[redirects]]
+from = "/en/2026/mercader-et-al-2017-girelpdf/index.html"
+to = "/en/files/2026/mercader-et-al-2017-girelpdf/"
 
 [[redirects]]
 from = "/lequipe/index.html"
@@ -303,6 +351,10 @@ from = "/fr/port-vauban/index.html"
 to = "/fr/organisations/port-vauban/"
 
 [[redirects]]
+from = "/en/2026/plqt-care-2020-netpdf/index.html"
+to = "/en/files/2026/plqt-care-2020-netpdf/"
+
+[[redirects]]
 from = "/en/region-occitanie/index.html"
 to = "/en/organizations/region-occitanie/"
 
@@ -317,6 +369,10 @@ to = "/fr/organisations/agence-de-leau-rhone-mediterranee-corse/"
 [[redirects]]
 from = "/2019/wp-content/uploads/2023/05/Question-7-LES-OISEAUX.mp3/index.html"
 to = "/fr/projets/2022-captain-game-agde/"
+
+[[redirects]]
+from = "/en/2026/guide-post-larves-reunionpdf/index.html"
+to = "/en/files/2026/guide-post-larves-reunionpdf/"
 
 [[redirects]]
 from = "/en/exhibitions-archives/index.html"
@@ -359,8 +415,16 @@ from = "/fr/a-la-une/index.html"
 to = "/fr/actualites/a-la-une/"
 
 [[redirects]]
+from = "/en/2026/radfort-etal-2016-global-change-biologypdf/index.html"
+to = "/en/files/2026/radfort-etal-2016-global-change-biologypdf/"
+
+[[redirects]]
 from = "/en/france-2030/index.html"
 to = "/en/organizations/france-2030/"
+
+[[redirects]]
+from = "/en/2026/guidepcc-guadeloupepdf/index.html"
+to = "/en/files/2026/guidepcc-guadeloupepdf/"
 
 [[redirects]]
 from = "/sensibilisation/index.html"
@@ -375,12 +439,20 @@ from = "/fr/archives-expositions/index.html"
 to = "/fr/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/en/2026/mace-etal-2024-molecular-ecologypdf/index.html"
+to = "/en/files/2026/mace-etal-2024-molecular-ecologypdf/"
+
+[[redirects]]
 from = "/en/solar-impulse-efficient-solution/index.html"
 to = "/en/organizations/solar-impulse-efficient-solution/"
 
 [[redirects]]
 from = "/fr/vinci-construction/index.html"
 to = "/fr/organisations/vinci-construction/"
+
+[[redirects]]
+from = "/en/2026/richardson-et-al-2023-examining-current-best-practices-for-the-use-of-wild-post-larvae-capture-cultu/index.html"
+to = "/en/files/2026/richardson-et-al-2023-examining-current-best-practices-for-the-use-of-wild-post-larvae-capture-cultu/"
 
 [[redirects]]
 from = "/en/initiative-pim/index.html"
@@ -395,8 +467,16 @@ from = "/materiel-de-peche-et-delevage/index.html"
 to = "/fr/solutions/biorestore/"
 
 [[redirects]]
+from = "/en/2026/these-mercader-m-2018pdf/index.html"
+to = "/en/files/2026/these-mercader-m-2018pdf/"
+
+[[redirects]]
 from = "/fr/agenda/2025/salon-des-maires/index.html"
 to = "/fr/agenda/2026/salon-des-maires/"
+
+[[redirects]]
+from = "/en/2026/article-vertigolab-casciomar-2019pdf/index.html"
+to = "/en/files/2026/article-vertigolab-casciomar-2019pdf/"
 
 [[redirects]]
 from = "/en/ffem/index.html"
@@ -413,6 +493,10 @@ to = "/fr/personnes/severine-pristchepa/"
 [[redirects]]
 from = "/en/ville-de-pantin/index.html"
 to = "/en/organizations/ville-de-pantin/"
+
+[[redirects]]
+from = "/en/2026/bouchoucha-et-al-2016-mepspdf/index.html"
+to = "/en/files/2026/bouchoucha-et-al-2016-mepspdf/"
 
 [[redirects]]
 from = "/fr/renewables-grid-initiative/index.html"
@@ -435,6 +519,14 @@ from = "/fr/nikita-rosso/index.html"
 to = "/fr/personnes/nikita-rosso/"
 
 [[redirects]]
+from = "/en/2026/lambert-et-al-2024-valorization-of-basic-oxygen-furnace-slag-in-the-marine-environmentpdf/index.html"
+to = "/en/files/2026/lambert-et-al-2024-valorization-of-basic-oxygen-furnace-slag-in-the-marine-environmentpdf/"
+
+[[redirects]]
+from = "/en/2026/2022-evaluation-de-l-efficacite-des-solutions-de-restauration-ecologique-cas-des-nurseries-portuaire/index.html"
+to = "/en/files/2026/2022-evaluation-de-l-efficacite-des-solutions-de-restauration-ecologique-cas-des-nurseries-portuaire/"
+
+[[redirects]]
 from = "/mentions-legales/index.html"
 to = "/fr/mentions-legales/"
 
@@ -451,8 +543,16 @@ from = "/fr/appa/index.html"
 to = "/fr/organisations/appa/"
 
 [[redirects]]
+from = "/en/2026/faillettaz-mepspdf/index.html"
+to = "/en/files/2026/faillettaz-mepspdf/"
+
+[[redirects]]
 from = "/fr/region-occitanie/index.html"
 to = "/fr/organisations/region-occitanie/"
+
+[[redirects]]
+from = "/en/2026/marineornamentalspecieaquaculture-pdfpdf/index.html"
+to = "/en/files/2026/marineornamentalspecieaquaculture-pdfpdf/"
 
 [[redirects]]
 from = "/en/cnrs/index.html"
@@ -468,7 +568,15 @@ to = "/en/organizations/departement-des-pyrenees-orientales/"
 
 [[redirects]]
 from = "/en/2026/index.html"
-to = "/en/2026/article-rim2024-v1pdf/"
+to = "/en/files/2026/article-rim2024-v1pdf/"
+
+[[redirects]]
+from = "/en/2026/guide-driver-2016-net-frapdf/index.html"
+to = "/en/files/2026/guide-driver-2016-net-frapdf/"
+
+[[redirects]]
+from = "/en/2026/coastalhabitatconservation-2023-pdf-chap7pdf/index.html"
+to = "/en/files/2026/coastalhabitatconservation-2023-pdf-chap7pdf/"
 
 [[redirects]]
 from = "/organisations/categories/partenaires/index.html"
@@ -477,6 +585,14 @@ to = "/fr/organisations/categories/partenaires/"
 [[redirects]]
 from = "/fr/cnrs/index.html"
 to = "/fr/organisations/cnrs/"
+
+[[redirects]]
+from = "/en/2026/wallis-pacific-guide-id-young-coral-fish-guide-wallis-central-pacificpdf/index.html"
+to = "/en/files/2026/wallis-pacific-guide-id-young-coral-fish-guide-wallis-central-pacificpdf/"
+
+[[redirects]]
+from = "/en/2026/article-rim2024-v1pdf/index.html"
+to = "/en/files/2026/article-rim2024-v1pdf/"
 
 [[redirects]]
 from = "/fr/laure-lailheugue/index.html"
@@ -513,6 +629,10 @@ to = "/fr/organisations/capa/"
 [[redirects]]
 from = "/en/renewables-grid-initiative/index.html"
 to = "/en/organizations/renewables-grid-initiative/"
+
+[[redirects]]
+from = "/en/2026/cheminee-et-al-2017-ecate-nurseries-mpbpdf/index.html"
+to = "/en/files/2026/cheminee-et-al-2017-ecate-nurseries-mpbpdf/"
 
 [[redirects]]
 from = "/2019/wp-content/uploads/2023/05/Question-4-POLLUTION.mp3/index.html"
@@ -615,8 +735,16 @@ from = "/fr/equipe/sebastien-fonbonne/index.html"
 to = "/fr/personnes/sebastien-fonbonne/"
 
 [[redirects]]
+from = "/en/2026/selfati-etal-2018-restauration-fish-communitiespdf/index.html"
+to = "/en/files/2026/selfati-etal-2018-restauration-fish-communitiespdf/"
+
+[[redirects]]
 from = "/fr/equipe/damien-einsargueix/index.html"
 to = "/fr/personnes/damien-einsargueix/"
+
+[[redirects]]
+from = "/en/2026/salmonetal2025-kmaepdf/index.html"
+to = "/en/files/2026/salmonetal2025-kmaepdf/"
 
 [[redirects]]
 from = "/fr/regis-calcar/index.html"
@@ -625,6 +753,10 @@ to = "/fr/personnes/regis-calcar/"
 [[redirects]]
 from = "/fr/principle-power/index.html"
 to = "/fr/organisations/principle-power/"
+
+[[redirects]]
+from = "/en/2026/driver-guide-2016-net-engpdf/index.html"
+to = "/en/files/2026/driver-guide-2016-net-engpdf/"
 
 [[redirects]]
 from = "/fr/la-mer-en-commun/index.html"
@@ -655,6 +787,10 @@ from = "/en/ocean-winds/index.html"
 to = "/en/organizations/ocean-winds/"
 
 [[redirects]]
+from = "/en/2026/mercader-etal-2017-spatial-distribution-juvenile-artificialized-seascapepdf/index.html"
+to = "/en/files/2026/mercader-etal-2017-spatial-distribution-juvenile-artificialized-seascapepdf/"
+
+[[redirects]]
 from = "/en/banque-des-territoires/index.html"
 to = "/en/organizations/banque-des-territoires/"
 
@@ -665,6 +801,10 @@ to = "/fr/projets/2023-terminal-industriel-polyvalent-san-pedro/"
 [[redirects]]
 from = "/en/uvpo/index.html"
 to = "/en/organizations/uvpo/"
+
+[[redirects]]
+from = "/en/2026/bouchoucha-et-al-2018-mar-polpdf/index.html"
+to = "/en/files/2026/bouchoucha-et-al-2018-mar-polpdf/"
 
 [[redirects]]
 from = "/en/alliance-verte/index.html"
@@ -695,6 +835,14 @@ from = "/equipe/index.html"
 to = "/fr/a-propos-de-nous/lequipe/"
 
 [[redirects]]
+from = "/en/2026/bouchoucha-etal-2018-otolith-fingerprintspdf/index.html"
+to = "/en/files/2026/bouchoucha-etal-2018-otolith-fingerprintspdf/"
+
+[[redirects]]
+from = "/en/2026/salmonetal2024-shortnotepdf/index.html"
+to = "/en/files/2026/salmonetal2024-shortnotepdf/"
+
+[[redirects]]
 from = "/fr/equipe/baptiste-deruytere/index.html"
 to = "/fr/personnes/baptiste-deruytere/"
 
@@ -713,6 +861,10 @@ to = "/fr/agenda/salon/"
 [[redirects]]
 from = "/fr/upaca/index.html"
 to = "/fr/organisations/upaca/"
+
+[[redirects]]
+from = "/en/2026/ecocean-engin-peche-article-catalan-etat-mms-enpdf/index.html"
+to = "/en/files/2026/ecocean-engin-peche-article-catalan-etat-mms-enpdf/"
 
 [[redirects]]
 from = "/fr/port-de-bruxelles/index.html"
@@ -749,6 +901,10 @@ to = "/en/organizations/upge/"
 [[redirects]]
 from = "/fr/categories/projets/index.html"
 to = "/fr/personnes/categories/projets/"
+
+[[redirects]]
+from = "/en/2026/manuscrit-de-these-qsalmon-2022-04-14pdf/index.html"
+to = "/en/files/2026/manuscrit-de-these-qsalmon-2022-04-14pdf/"
 
 [[redirects]]
 from = "/2019/wp-content/uploads/2023/05/Question-5-BIOHUT.mp3/index.html"
@@ -807,6 +963,10 @@ from = "/en/caisse-des-depots/index.html"
 to = "/en/organizations/caisse-des-depots/"
 
 [[redirects]]
+from = "/en/2026/manel-etal-2024-conservation-letterspdf/index.html"
+to = "/en/files/2026/manel-etal-2024-conservation-letterspdf/"
+
+[[redirects]]
 from = "/plan-du-site/index.html"
 to = "/fr/plan-du-site/"
 
@@ -817,6 +977,10 @@ to = "/fr/projets/2023-terminal-industriel-polyvalent-san-pedro/"
 [[redirects]]
 from = "/fr/categories/reseaux/index.html"
 to = "/fr/organisations/categories/reseaux/"
+
+[[redirects]]
+from = "/en/2026/mercader-et-al-2019-ex-situ-experiments-on-habitat-selectionpdf/index.html"
+to = "/en/files/2026/mercader-et-al-2019-ex-situ-experiments-on-habitat-selectionpdf/"
 
 [[redirects]]
 from = "/en/ports-du-cap-dagde/index.html"
@@ -855,6 +1019,10 @@ from = "/organisations/universite-perpignan/index.html"
 to = "/fr/organisations/universite-de-perpignan/"
 
 [[redirects]]
+from = "/en/2026/ecocean-flyer-biohut-2026pdf/index.html"
+to = "/en/files/2026/ecocean-flyer-biohut-2026pdf/"
+
+[[redirects]]
 from = "/en/efgl/index.html"
 to = "/en/organizations/efgl/"
 
@@ -891,6 +1059,10 @@ from = "/organisations/region-occitanie-pyrenee-mediterranee/index.html"
 to = "/fr/organisations/region-occitanie/"
 
 [[redirects]]
+from = "/en/2026/ecocean-flyer-biohut-2026-net-2pdf/index.html"
+to = "/en/files/2026/ecocean-flyer-biohut-2026-net-2pdf/"
+
+[[redirects]]
 from = "/fr/pole-mer-mediterranee/index.html"
 to = "/fr/organisations/pole-mer-mediterranee/"
 
@@ -915,6 +1087,10 @@ from = "/fr/arcelor-mittal/index.html"
 to = "/fr/organisations/arcelor-mittal/"
 
 [[redirects]]
+from = "/en/2026/cortes-useche-et-al-2021-capture-culture-and-release-of-postlarvae-fishespdf/index.html"
+to = "/en/files/2026/cortes-useche-et-al-2021-capture-culture-and-release-of-postlarvae-fishespdf/"
+
+[[redirects]]
 from = "/fr/antony-fortin/index.html"
 to = "/fr/personnes/antony-fortin/"
 
@@ -933,6 +1109,10 @@ to = "/fr/solutions/biorestore/"
 [[redirects]]
 from = "/fr/museum-national-dhistoire-naturelle-mnhn/index.html"
 to = "/fr/organisations/museum-national-dhistoire-naturelle-mnhn/"
+
+[[redirects]]
+from = "/en/2026/guide-pl-med2023pdf/index.html"
+to = "/en/files/2026/guide-pl-med2023pdf/"
 
 [[redirects]]
 from = "/en/terminal-industriel-polyvalent-de-san-pedro/index.html"
@@ -959,6 +1139,10 @@ from = "/fr/damien-einsargueix/index.html"
 to = "/fr/personnes/damien-einsargueix/"
 
 [[redirects]]
+from = "/en/2026/plaqutte-biorest-2108-eng-netpdf/index.html"
+to = "/en/files/2026/plaqutte-biorest-2108-eng-netpdf/"
+
+[[redirects]]
 from = "/https:/www.ecocean.fr/wp-content/uploads/Ecocean-Diagnostic-Guide-Post-Larve-Mediterranee-2012-fr.pdf/index.html"
 to = "/fr/a-propos-de-nous/ressources/"
 
@@ -973,6 +1157,10 @@ to = "/fr/projets/2021-port-de-copenhague/"
 [[redirects]]
 from = "/en/anaelle-grosbois/index.html"
 to = "/en/team/anaelle-grosbois/"
+
+[[redirects]]
+from = "/en/2026/salmon-et-al-2021-floliz-macroinvertebratespdf/index.html"
+to = "/en/files/2026/salmon-et-al-2021-floliz-macroinvertebratespdf/"
 
 [[redirects]]
 from = "/https:/www.ecocean.fr/documents-to-download/index.html"
@@ -1025,6 +1213,10 @@ to = "/fr/organisations/categories/partenaires/"
 [[redirects]]
 from = "/organisations/cdc-biodiversite/index.html"
 to = "/fr/organisations/cdc-biodiversite/"
+
+[[redirects]]
+from = "/en/2026/ecocean-freshwater-flyer-net-2pdf/index.html"
+to = "/en/files/2026/ecocean-freshwater-flyer-net-2pdf/"
 
 [[redirects]]
 from = "/fr/ocergy/index.html"
@@ -1087,8 +1279,16 @@ from = "/fr/region-sud-provence-alpes-cote-dazur/index.html"
 to = "/fr/organisations/region-sud-provence-alpes-cote-dazur/"
 
 [[redirects]]
+from = "/en/2026/mercader-etal-2017-ecological-ingeneering-okpdf/index.html"
+to = "/en/files/2026/mercader-etal-2017-ecological-ingeneering-okpdf/"
+
+[[redirects]]
 from = "/fr/ffem/index.html"
 to = "/fr/organisations/ffem/"
+
+[[redirects]]
+from = "/en/2026/set-revue-2026-51-9933pdf/index.html"
+to = "/en/files/2026/set-revue-2026-51-9933pdf/"
 
 [[redirects]]
 from = "/fr/caipim/index.html"
