@@ -384,7 +384,7 @@ to = "/en/organizations/universite-de-perpignan/"
 
 [[redirects]]
 from = "/agenda/2025/salon-des-maires/index.html"
-to = "/fr/agenda/2026/salon-des-maires/"
+to = "/fr/agenda/2026/salon-de-la-biodiversite-2026/"
 
 [[redirects]]
 from = "/en/anais-gudefin/index.html"
@@ -472,7 +472,7 @@ to = "/en/files/2026/these-mercader-m-2018pdf/"
 
 [[redirects]]
 from = "/fr/agenda/2025/salon-des-maires/index.html"
-to = "/fr/agenda/2026/salon-des-maires/"
+to = "/fr/agenda/2026/salon-de-la-biodiversite-2026/"
 
 [[redirects]]
 from = "/en/2026/article-vertigolab-casciomar-2019pdf/index.html"
@@ -1269,6 +1269,10 @@ to = "/fr/projets/2022-bruxelles/"
 [[redirects]]
 from = "/fr/equipe/categories/support/index.html"
 to = "/fr/personnes/categories/support/"
+
+[[redirects]]
+from = "/fr/agenda/2026/salon-des-maires/index.html"
+to = "/fr/agenda/2026/salon-de-la-biodiversite-2026/"
 
 [[redirects]]
 from = "/fr/origine-france-garantie/index.html"
